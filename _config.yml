@@ -68,4 +68,6 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: s3
+  bucket: kevinadu.com
+  region: ap-northeast-1
