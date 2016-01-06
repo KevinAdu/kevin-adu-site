@@ -3,17 +3,23 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Kevin Adu's Site
-subtitle: Kevin Adu
-description:
-author: Kevin Adu-Sarkodie
+title: Kevin Adu's Blog
+subtitle:
+description: A blog about life in England and Japan
+author: Kevin Adu
+author_title: 'Web Developer'
+avatar: css/images/avatar.jpg
+location: 'London, England'
+follow: https://twitter.com/KmanKun
+email: # Your email (Used to show Gravatar).
 language: en
 timezone:
+since: 2016 # The start year showing in your copyright section.
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://kevinadu.com
-root: /
+root: /hexo-theme-icarus/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -40,7 +46,6 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: true
   tab_replace:
 
 # Category & Tag
@@ -52,18 +57,27 @@ tag_map:
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: DD-MM-YYYY
 time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 10
+per_page: 6
 pagination_dir: page
 
 # Extensions
-## Plugins: http://hexo.io/plugins/
-## Themes: http://hexo.io/themes/
+## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
+## Themes: https://github.com/hexojs/hexo/wiki/Themes
 theme: icarus
+
+# Disqus
+# disqus_shortname: hexo-theme-icarus
+
+# DuoShuo
+# duoshuo_shortname: hexo-theme-icarus
+
+# Swiftype
+# swiftype_install_key: XXX_XXXXXXXXXXXXXXXX
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
