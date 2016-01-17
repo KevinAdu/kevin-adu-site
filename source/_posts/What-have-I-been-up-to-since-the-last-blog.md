@@ -1,7 +1,18 @@
 title: What have I been up to since the last blog?
 date: 2015-12-18 23:06:08
+categories:
+- Life
 tags:
+- vietnam
+- friends
+- working holiday visa
+- visa
+- halong bay
+- hoian
+- hanoi
+- american english
 lang: en
+thumbnail: /japan-uk.jpg
 ---
 
 Hey everyone! Long time no see! げんき？(Genki?)
