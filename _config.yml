@@ -12,16 +12,20 @@ avatar: css/images/avatar.jpg
 location: 'London, England'
 follow: https://twitter.com/KmanKun
 email: # Your email (Used to show Gravatar).
-language: en
+language:
+- en
+- ja
 timezone:
 since: 2016 # The start year showing in your copyright section.
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://kevinadu.com
-root: /hexo-theme-icarus/
-permalink: :year/:month/:day/:title/
+url: http://blog.kevinadu.com
+new_post_name: :lang/:title.md
+permalink: :lang/:title/
 permalink_defaults:
+  lang: en
+
 
 # Directory
 source_dir: source
@@ -40,7 +44,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -83,5 +87,5 @@ theme: icarus
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: s3
-  bucket: kevinadu.com
+  bucket: blog.kevinadu.com
   region: ap-northeast-1
