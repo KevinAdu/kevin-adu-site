@@ -1,5 +1,5 @@
 title: What have I been up to since the last blog?
-date: 2015-12-18 23:06:08
+date: 2016-01-24 23:06:08
 categories:
 - Life
 tags:
@@ -15,11 +15,12 @@ tags:
 - American English
 - Golden week
 - Silver week
+- Golden Gai
 lang: en
 thumbnail: /japan-uk.jpg
 ---
 
-Hey everyone! Long time no see! げんき？(Genki?)
+Hey everyone! Long time no see! Hope everyone has been well!
 
 It has definitely been a while since I have written any sort of blog post. First of all I would like to say sorry for not being able to continue with my blog about how my life was going on in Japan. When I had stopped writing blog posts I received quite a few messages asking me, "Where the heck have your posts gone?". So I decided to bring the blog back and properly inform you of not only what I am doing in Japan, but also an insight into what Japanese culture truly is. Before that though, let me give you an update of what I have been doing for the past year and a bit.
 <!-- more -->
@@ -38,7 +39,7 @@ After spending about two weeks in the UK, I had realised I have been in Asia for
 
 {% asset_img hoian-beach.JPG It was truly paradise at Hoian Beach %}
 
-{% asset_img hanoi-lake.JPG Even there are some beautifl views in the capital city in Hanoi %}
+{% asset_img hanoi-lake.JPG Even there are some beautiful views in the capital city in Hanoi %}
 
 I think the final major thing was that I have met and reunited with so many people during my time in Japan. The amount of interesting and friendly people there can be overwhelming. I can learn so much by just going to [Golden Gai](http://www.unmissabletokyo.com/golden-gai) for a night out and talking to so many different people. I think the main factor of this is that of course Japan is not the country I was born neither grew up in so it is always just fascinating for me to conversate with Japanese people. Also a lot of people have visited me whilst I have been living in Japan and I'm so grateful for that. Sometimes it is not so easy being an expat especially when your mother tongue is completely different from that country. Even most of the people who can speak English speak American English so sometimes I was misunderstood!
 
@@ -49,5 +50,7 @@ I think the final major thing was that I have met and reunited with so many peop
 {% asset_img me-and-the-brunel-girls.jpg Long time friends from University in an Izakaya in Shinjuku %}
 
 {% asset_img me-with-gobukai-and-the-girls.jpg  Summer time in a Temple in Kamakura%}
+
+{% asset_img hobgoblin-farewell.jpg  A farewell with some good friends in a British pub in Tokyo%}
 
 I hope that gives you a basic idea of what happened to me. Right now I am back in the UK again for a couple of months and then I will head back to Japan. So for the time being I will write about London for the people back in Japan. There's still the typical strange image of what the Japanese think of the UK, so hopefully I can clarify it for some in my blog. Thank you for reading once again!
