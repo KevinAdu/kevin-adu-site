@@ -17,7 +17,7 @@ tags:
 - Silver week
 - Golden Gai
 lang: en
-thumbnail: /japan-uk.jpg
+thumbnail: japan-uk.jpg
 ---
 
 Hey everyone! Long time no see! Hope everyone has been well!
