@@ -2,16 +2,6 @@
 ## Docs: http://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# Site
-title: Kevin Adu's Blog
-subtitle:
-description: A blog about life in England and Japan
-author: Kevin Adu
-author_title: 'Enjoying life'
-avatar: css/images/avatar.jpg
-location: 'London, England'
-follow: https://twitter.com/KmanKun
-email: # Your email (Used to show Gravatar).
 language:
 - en
 - ja
@@ -72,9 +62,6 @@ pagination_dir: page
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
 theme: icarus
-
-# Disqus
-disqus_shortname: kevinadu
 
 feed:
   type: rss2
