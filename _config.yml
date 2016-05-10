@@ -2,9 +2,8 @@
 ## Docs: http://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 title: Kevin Adu
-language:
-- en
-- ja
+author: Kevin Adu
+language: en
 timezone:
 since: 2016 # The start year showing in your copyright section.
 
