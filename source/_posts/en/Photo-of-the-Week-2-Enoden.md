@@ -1,8 +1,7 @@
 title: 'Photo of the Week #2 - Enoden'
 lang: en
 date: 2016-05-19 19:50:59
-categories:
-- Photography
+categories: [Photography]
 tags:
 - Japan
 - Fujisawa

@@ -1,7 +1,6 @@
 title: What have I been up to since the last blog?
 date: 2016-01-24 23:06:08
-categories:
-- Life
+categories: [Life]
 tags:
 - Japan
 - Hokkaido

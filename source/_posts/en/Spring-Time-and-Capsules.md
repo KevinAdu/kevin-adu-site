@@ -1,7 +1,6 @@
 title: Spring Time and Capsules
 date: 2016-05-11 23:43:09
-categories:
-- Life
+categories: [Japan]
 tags:
 - Japan
 - Hanami

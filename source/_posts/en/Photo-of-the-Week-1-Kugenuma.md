@@ -1,8 +1,6 @@
 title: 'Photo of the Week #1 - Kugenuma'
 date: 2016-03-01 23:41:33
-categories:
-- Life
-- Japan
+categories: [Photography]
 tags:
 - Japan
 - Kanagawa
@@ -17,7 +15,7 @@ tags:
 
 Recently I ended up buying a DSLR camera to capture more moments while I’m out especially since I am back in Japan and also for the sake of the blog. I really want to show people what I see but right now I’m an amateur at photography so it will take time for me to express what I want to show to the readers. So I decided to start this series of posts where I can try and improve my photography and give you a brief weekly update of what I have been doing.
 
-<!-- more --> 
+<!-- more -->
 
 To begin, here is my first photo (don’t laugh at my amateurism too hard):
 
