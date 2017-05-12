@@ -78,4 +78,4 @@ feed:
 deploy:
   type: git
   repo: git@github.com:KevinAdu/kevin-adu-blog
-  branch: master
+  branch: gh-pages
