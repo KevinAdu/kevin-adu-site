@@ -9,7 +9,8 @@ since: 2016 # The start year showing in your copyright section.
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.kevinadu.com
+url: http://blog.kevinadu.com/
+root: /
 new_post_name: :lang/:title.md
 permalink: :lang/:title/
 permalink_defaults:
@@ -74,9 +75,7 @@ feed:
 # Swiftype
 # swiftype_install_key: XXX_XXXXXXXXXXXXXXXX
 
-# Deployment
-## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: s3
-  bucket: blog.kevinadu.com
-  region: ap-northeast-1
+  type: git
+  repo: git@github.com:KevinAdu/kevin-adu-blog
+  branch: master
