@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+  font-size: $base-font-size;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: $body-background-color;
+  margin: 0 auto;
+}
