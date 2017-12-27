@@ -1,0 +1,6 @@
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 27px;
+  transform: translateY(-60px);
+}

@@ -3,34 +3,36 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
-import Bio from '../components/Bio'
-
 class BlogIndex extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
-      <div>
+      <main>
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
-        <Bio />
-        {posts.map(post => {
-          if (post.node.path !== '/404/') {
-            const title = get(post, 'node.frontmatter.title') || post.node.path
-            return (
-              <div key={post.node.frontmatter.path}>
-                <h3>
-                  <Link to={post.node.frontmatter.path} >
-                    {post.node.frontmatter.title}
-                  </Link>
-                </h3>
-                <small>{post.node.frontmatter.date}</small>
-                <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
-              </div>
-            )
-          }
-        })}
-      </div>
+        <div className="article-container">
+          {posts.map(post => {
+            if (post.node.path !== '/404/') {
+              const title = get(post, 'node.frontmatter.title') || post.node.path
+              return (
+                <Link to={post.node.frontmatter.path} >
+                  <article className="post" key={post.node.frontmatter.path}>
+                    <div className="post-thumbnail">
+                      <img className="post-img" src={post.node.frontmatter.thumbnail.childImageSharp.responsiveSizes.src} />
+                    </div>
+                    <div className="post-content">
+                      <h3>{post.node.frontmatter.title}</h3>
+                      <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
+                      <small>{post.node.frontmatter.date}</small>
+                    </div>
+                  </article>
+                </Link>
+              )
+            }
+          })}
+        </div>
+      </main>
     )
   }
 }
@@ -58,6 +60,16 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            thumbnail {
+              childImageSharp {
+                responsiveSizes(maxWidth: 400) {
+                  base64
+                  src
+                  srcSet
+                  sizes
+                }
+              }
+            }
           }
         }
       }
