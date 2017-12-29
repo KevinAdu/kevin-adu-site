@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/kevin-adu-blog/app-4db9f5784d4ff1c62b75.js","f71e9f76fbe1d13b163e282d32803b4a"],["/kevin-adu-blog/app-7a34aea171da718c7635.js","9a413bfaec207b1796875ebc628715a5"],["/kevin-adu-blog/app-d24e6a5cbada97853ac8.js","c08ab3409a5b6dffd8d99c85ae4bb7a5"],["/kevin-adu-blog/commons-f2c19e5a3043fc20aabc.js","249b894ed77cec4a63bba4c8d8eac2bc"],["/kevin-adu-blog/index.html","7cadff07238161a51fecadde3daa96a3"],["/kevin-adu-blog/offline-plugin-app-shell-fallback/index.html","65be78bb342a3d64aca65f38f1081ff3"]];
+var precacheConfig = [["/app-4db9f5784d4ff1c62b75.js","f71e9f76fbe1d13b163e282d32803b4a"],["/app-6aad30733cf262ae72b3.js","1360b09d55a9fbc50384c6850f11a9e7"],["/app-7a34aea171da718c7635.js","9a413bfaec207b1796875ebc628715a5"],["/app-d24e6a5cbada97853ac8.js","c08ab3409a5b6dffd8d99c85ae4bb7a5"],["/commons-f2c19e5a3043fc20aabc.js","bd62221499af2c56c8226226a392f58b"],["/index.html","f6d3fd197dfa16fa86fa495d8d63eee5"],["/offline-plugin-app-shell-fallback/index.html","7d36ac277bbe7d4ebec2cd4146e935ca"]];
 var cacheName = 'sw-precache-v3-gatsby-plugin-offline-' + (self.registration ? self.registration.scope : '');
 
 
