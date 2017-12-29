@@ -1,0 +1,56 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-a791c0d6fe3d2593805b.js",
+      "component---src-pages-index-js-a791c0d6fe3d2593805b.js.map"
+    ],
+    "path---spring-time-and-capsules": [
+      "path---spring-time-and-capsules-fa0133d803b2340ebbf9.js",
+      "path---spring-time-and-capsules-fa0133d803b2340ebbf9.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-c3761446848baaf42435.js",
+      "component---src-templates-blog-post-js-c3761446848baaf42435.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-5e6df5b5710e7a947b2e.js",
+      "component---src-layouts-index-js-5e6df5b5710e7a947b2e.js.map"
+    ],
+    "path---index": [
+      "path---index-ca5a29d8115f257ffb1e.js",
+      "path---index-ca5a29d8115f257ffb1e.js.map"
+    ],
+    "path---since-the-last-blog": [
+      "path---since-the-last-blog-0ca933a6979909052b27.js",
+      "path---since-the-last-blog-0ca933a6979909052b27.js.map"
+    ],
+    "commons": [
+      "commons-f2c19e5a3043fc20aabc.js",
+      "commons-f2c19e5a3043fc20aabc.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-7a34aea171da718c7635.js",
+      "app-7a34aea171da718c7635.js.map"
+    ],
+    "path---jumping-back-in": [
+      "path---jumping-back-in-c9a625bd818247748afa.js",
+      "path---jumping-back-in-c9a625bd818247748afa.js.map"
+    ],
+    "path---reverse-culture-shock": [
+      "path---reverse-culture-shock-0b3aa74c9fe667de3667.js",
+      "path---reverse-culture-shock-0b3aa74c9fe667de3667.js.map"
+    ]
+  }
+}
