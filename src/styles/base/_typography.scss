@@ -1,0 +1,38 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: $header-font-family;
+  // line-height: $header-line-height;
+  margin: $header-margin-bottom;
+}
+
+h1 {
+  font-size: $h1-font-size;
+}
+
+h2 {
+  font-size: $h2-font-size;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: $h3-font-size;
+}
+
+p {
+  font-size: $paragraph-font-size;
+  font-family: $paragraph-font-family;
+  line-height: 1.722222;
+//   margin: $paragraph-margin-bottom;
+}
+
+small {
+  font-family: $header-font-family;
+  font-weight: 600;
+  font-size: 15.81px;
+}
+
+a:hover {
+  text-decoration: none;
+}

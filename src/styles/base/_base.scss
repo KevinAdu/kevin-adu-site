@@ -1,0 +1,14 @@
+html {
+  font-size: $base-font-size;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: $body-background-color;
+  margin: 0 auto;
+}

@@ -1,0 +1,28 @@
+.nav {
+  width: 1028px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  line-height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 45px;
+}
+
+.nav-links {
+  font-family: "Roboto", sans-serif;
+
+  > a {
+    color: #EDEDED;
+    display: inline-block;
+    margin-right: 1.5rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

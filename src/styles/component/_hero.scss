@@ -1,0 +1,17 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: 340px;
+
+  > h1, h2 {
+    color: #EDEDED;
+    text-align: center;
+  }
+}
+
+.hero-avatar {
+  align-self: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
