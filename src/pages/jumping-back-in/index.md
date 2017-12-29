@@ -12,7 +12,7 @@ tags:
 - Motivation
 - Web Design
 - Programming
-thumbnail: "./jar-stones.jpg"
+thumbnail: "./scuba_hero_diver.jpg"
 ---
 
 It's been a while since I've written a post. There's been a lot of distractions, ups and down (especially downs) recently, so I decided to write a post that would motivate me and let anyone reading know that I aiming to achieve.

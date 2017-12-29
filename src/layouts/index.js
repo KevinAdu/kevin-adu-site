@@ -14,12 +14,9 @@ class Template extends React.Component {
       header = (
         <header className="hero">
           <nav className="nav">
-            <object src={logo}></object>
-            <ul className="nav-links">
-              <Link to={'/'} >Life</Link>
-              <Link to={'/'} >Japan</Link>
-              <Link to={'/'} >About Me</Link>
-            </ul>
+            <Link to={'/'} >
+              <img className="nav-logo" src={logo}></img>
+            </Link>
           </nav>
           <img className="hero-avatar" src={profilePic}></img>
           <h1 className="hero-name">Kevin Adu-Sarkodie</h1>
@@ -28,11 +25,13 @@ class Template extends React.Component {
       )
     } else {
       header = (
-        <h3>
-          <Link to={'/'}>
-            Gatsby Starter Blog
-          </Link>
-        </h3>
+        <header>
+          <nav className="nav">
+            <Link to={'/'} >
+              <img className="nav-logo" src={logo}></img>
+            </Link>
+          </nav>
+        </header>
       )
     }
     return (

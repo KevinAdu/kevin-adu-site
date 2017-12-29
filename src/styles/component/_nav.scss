@@ -3,8 +3,14 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  height: 70px;
-  line-height: 70px;
+  height: 80px;
+  line-height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 45px;
 }
 
 .nav-links {
