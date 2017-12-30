@@ -21,7 +21,7 @@ lang: en
 thumbnail: "./japan-uk.jpg"
 ---
 
-Hey everyone! Long time no see! Hope everyone has been well!
+Hey everyone! Long time no see!
 
 It has definitely been a while since I have written any sort of blog post. First of all I would like to say sorry for not being able to continue with my blog about how my life was going on in Japan. When I had stopped writing blog posts I received quite a few messages asking me, "Where the heck have your posts gone?". So I decided to bring the blog back and properly inform you of not only what I am doing in Japan, but also an insight into what Japanese culture truly is. Before that though, let me give you an update of what I have been doing for the past year and a bit.
 <!-- more -->
