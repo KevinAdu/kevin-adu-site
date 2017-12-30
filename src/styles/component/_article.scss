@@ -2,9 +2,15 @@
   background-color: #FFFFFF;
   max-width: 740px;
   margin: 0 auto;
-  padding-top: 2.5rem;
+  padding-top: 2rem;
 
   > p {
-    color: 393536;
+    color: #393536;
+  }
+}
+
+@media (max-width: 450px) {
+  .article {
+    margin: 0 27px;
   }
 }

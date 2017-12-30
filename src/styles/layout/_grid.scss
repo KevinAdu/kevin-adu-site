@@ -7,3 +7,9 @@
   transform: translateY(-60px);
   padding: 0 27px;
 }
+
+@media (max-width: 450px) {
+  .post-container {
+    transform: translateY(2rem);
+  }
+}
