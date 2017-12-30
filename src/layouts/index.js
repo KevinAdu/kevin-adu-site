@@ -29,6 +29,7 @@ class Template extends React.Component {
           <nav className="nav">
             <Link to={'/'} >
               <img className="nav-logo" src={logo}></img>
+              <h1>Kevin Adu</h1>
             </Link>
           </nav>
         </header>
