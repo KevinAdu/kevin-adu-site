@@ -6,11 +6,20 @@
   height: 80px;
   display: flex;
   align-items: center;
+}
 
-  > a {
-    display: flex;
-    justify-content: center;
-    color: #333;
+.nav-hero {
+  display: flex;
+  justify-content: center;
+  color: #333;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: inherit;
+  }
+
+  > h1 {
+    font-size: $hero-text-size;
   }
 }
 

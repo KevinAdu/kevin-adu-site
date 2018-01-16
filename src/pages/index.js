@@ -9,7 +9,7 @@ class BlogIndex extends React.Component {
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
-      <main className="home-main">
+      <main>
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
         <div className="post-container">
           {posts.map(post => {

@@ -1,11 +1,21 @@
-$body-background-color: #FFF;//#F1F1F3;
+$body-background-color: #FFFFFF;
 $base-font-size: 18px;
 
 $header-font-family: 'Open Sans', sans-serif;
-$header-margin-bottom: 1.166;
 $paragraph-font-family: 'Merriweather', serif;
 
-$h1-font-size: 1.793rem;
-$h2-font-size: 1.575rem;
-$h3-font-size: 1.215rem;
+//Modular scale 1.25 + 1.3333
+$h1-font-size: 1.953rem;
+$h2-font-size: 1.563rem;
+$h3-font-size: 1.333rem;
+$h4-font-size: 1.25rem;
+$h5-font-size: 1.067rem;
 $paragraph-font-size: 1rem;
+$small-font-size: 0.853rem;
+$hero-text-size: 1.667rem;
+
+$header-font-color: #222222;
+$paragraph-font-color: #545454;
+$time-font-color: #989898;
+$link-color: #1565C0;
+$link-hover-color: #0D47A1;

@@ -3,8 +3,10 @@ h2,
 h3,
 h4 {
   font-family: $header-font-family;
-  // line-height: $header-line-height;
-  margin: $header-margin-bottom;
+  line-height: 1;
+  margin: 1em 0;
+  word-spacing: -0.0625em;
+  color: $header-font-color;
 }
 
 h1 {
@@ -20,19 +22,28 @@ h3 {
   font-size: $h3-font-size;
 }
 
-p {
+p,
+time {
   font-size: $paragraph-font-size;
   font-family: $paragraph-font-family;
-  line-height: 1.722222;
-//   margin: $paragraph-margin-bottom;
+  line-height: 1.5;
+  margin: 1.5em 0;
+  word-spacing: 0.25em;
+  color: $paragraph-font-color;
 }
 
 small {
-  font-family: $header-font-family;
+  font-family: $paragraph-font-family;
   font-weight: 600;
   font-size: 15.81px;
 }
 
-a:hover {
-  text-decoration: none;
+time {
+  color: $time-font-color;
+}
+
+a {
+  color: #1565C0;
+  text-decoration: underline;
+  text-decoration-skip: ink;
 }

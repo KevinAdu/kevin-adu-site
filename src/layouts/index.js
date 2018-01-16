@@ -3,16 +3,13 @@ import Link from 'gatsby-link'
 
 import "../styles/main.scss"
 
-import profilePic from './profile-pic.jpg'
-import logo from './logo.svg'
-
 class Template extends React.Component {
   render() {
     const { location, children } = this.props
     const header = (
       <header>
         <nav className="nav">
-          <Link to={'/'} >
+          <Link to={'/'} className="nav-hero">
             <h1>Kevin Adu</h1>
           </Link>
         </nav>
