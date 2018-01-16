@@ -11,27 +11,20 @@ class BlogIndex extends React.Component {
     return (
       <main>
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
-        <div className="post-container">
           {posts.map(post => {
             if (post.node.path !== '/404/') {
               const title = get(post, 'node.frontmatter.title') || post.node.path
               return (
-                <Link to={post.node.frontmatter.path} >
                   <article className="post" key={post.node.frontmatter.path}>
-                    <div className="post-thumbnail">
-                      <img className="post-img" src={post.node.frontmatter.thumbnail.childImageSharp.responsiveSizes.src} />
-                    </div>
-                    <div className="post-content">
-                      <h3>{post.node.frontmatter.title}</h3>
-                      <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
-                      <small>{post.node.frontmatter.date}</small>
-                    </div>
+                    <Link className="post-title" to={post.node.frontmatter.path} >
+                      <h2>{post.node.frontmatter.title}</h2>
+                    </Link>
+                    <time>{post.node.frontmatter.date}</time>
+                    <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
                   </article>
-                </Link>
               )
             }
           })}
-        </div>
       </main>
     )
   }
