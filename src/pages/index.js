@@ -16,11 +16,12 @@ class BlogIndex extends React.Component {
               const title = get(post, 'node.frontmatter.title') || post.node.path
               return (
                   <article className="post" key={post.node.frontmatter.path}>
-                    <Link className="post-title" to={post.node.frontmatter.path} >
+                    <Link className="post-title" to={post.node.frontmatter.path}>
                       <h2>{post.node.frontmatter.title}</h2>
                     </Link>
                     <time>{post.node.frontmatter.date}</time>
                     <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
+                    <Link to={post.node.frontmatter.path}>Read More</Link>
                   </article>
               )
             }
