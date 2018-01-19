@@ -35,6 +35,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-37728292-2`,
+      },
+    },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
@@ -47,13 +53,6 @@ module.exports = {
           `open sans\:300,600`
         ]
       }
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-37728292-2",
-        anonymize: true,
-      },
-    },
+    }
   ],
 }
