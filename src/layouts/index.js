@@ -15,10 +15,18 @@ class Template extends React.Component {
         </nav>
       </header>
     )
+
+    const footer = (
+      <footer className="primary-footer">
+        <small>Copyright Kevin Adu {new Date().getFullYear()}</small>
+      </footer>
+    )
+
     return (
       <div>
         {header}
         {children()}
+        {footer}
       </div>
     )
   }
