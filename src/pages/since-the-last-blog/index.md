@@ -5,20 +5,9 @@ path: "/since-the-last-blog/"
 categories: [Life]
 tags:
 - Japan
-- Hokkaido
-- Vietnam
-- Friends
-- Working holiday visa
-- Visa
-- Halong bay
-- Hoian
-- Hanoi
-- American English
-- Golden week
-- Silver week
-- Golden Gai
+- UK
+- Travel
 lang: en
-thumbnail: "./japan-uk.jpg"
 ---
 
 Hey everyone! Long time no see!

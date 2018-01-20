@@ -5,14 +5,8 @@ date: 2016-08-24 08:01:49
 path: "/jumping-back-in/"
 categories: [Life]
 tags:
-- Japan
-- Japanese
-- UK
 - Goals
-- Motivation
-- Web Design
-- Programming
-thumbnail: "./scuba_hero_diver.jpg"
+- Inspiration
 ---
 
 It's been a while since I've written a post. There's been a lot of distractions, ups and down (especially downs) recently, so I decided to write a post that would motivate me and let anyone reading know that I aiming to achieve.

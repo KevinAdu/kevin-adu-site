@@ -1,25 +1,12 @@
 ---
 title: Spring Time and Capsules
 date: 2016-05-11 23:43:09
-categories: [Japan]
+categories: Life
 path: "/spring-time-and-capsules/"
 tags:
 - Japan
-- Hanami
-- Sakura
-- Cherry Blossoms
-- Alcohol
-- Park
-- Prunus
-- Students
-- Equinox
 - Spring
-- Capsule Hotel
-- 花見
-- 桜
-- 春分の日
 lang: en
-thumbnail: "./sakura_branch.jpg"
 ---
 
 I personally love spring in Japan. The temperature starts to get warmer, everyone is a lot more lively and the beautiful cherry blossoms begin to appear. Back in the UK, I didn’t really feel excited when spring came, I just knew that I would be getting some [chocolate easter eggs](http://www.theguardian.com/lifeandstyle/2016/mar/09/easter-eggs-2016-best-worst-taste-test-chocolate) and my brothers would be home from school. In Japan, it feels very different. Mainly because you can see it in the nature with the blooming of the sakura blossoms and other flowers.

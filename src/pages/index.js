@@ -14,12 +14,17 @@ class BlogIndex extends React.Component {
           {posts.map(post => {
             if (post.node.path !== '/404/') {
               const title = get(post, 'node.frontmatter.title') || post.node.path
+              const tagsList = post.node.frontmatter.tags.map(tag => (<li>{tag}</li>))
+
               return (
                   <article className="post" key={post.node.frontmatter.path}>
                     <Link className="post-title" to={post.node.frontmatter.path}>
                       <h2>{post.node.frontmatter.title}</h2>
                     </Link>
-                    <time>{post.node.frontmatter.date}</time>
+                    <div className="post-metadata">
+                      <time className="post-date">{post.node.frontmatter.date}</time>
+                      <ul className="post-tags">{tagsList}</ul>
+                    </div>
                     <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
                     <Link to={post.node.frontmatter.path}>Read More</Link>
                   </article>
@@ -51,22 +56,13 @@ export const pageQuery = graphql`
           frontmatter {
             path
             date(formatString: "DD MMMM, YYYY")
+            tags
           }
           frontmatter {
             title
-            thumbnail {
-              childImageSharp {
-                responsiveSizes(maxWidth: 400) {
-                  base64
-                  src
-                  srcSet
-                  sizes
-                }
-              }
             }
           }
         }
       }
     }
-  }
 `

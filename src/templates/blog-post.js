@@ -8,13 +8,17 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
+    const tagsList = post.frontmatter.tags.map(tag => (<li>{tag}</li>))
 
     return (
       <main>
         <article className="article">
           <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
           <h2>{post.frontmatter.title}</h2>
-          <time>{post.frontmatter.date}</time>
+          <div className="post-metadata">
+            <time className="post-date">{post.frontmatter.date}</time>
+            <ul className="post-tags">{tagsList}</ul>
+          </div>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr />
         </article>
@@ -43,6 +47,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        tags
       }
     }
   }

@@ -5,19 +5,8 @@ path: "/reverse-culture-shock/"
 categories: [Life]
 tags:
 - Japan
-- London
 - UK
-- Jaywalking
-- Train
-- Underground
-- Tube
-- Commute
-- Commuter
-- Language
-- Multiracial
-- America
 lang: en
-thumbnail: "./culture-shock.jpg"
 ---
 
 It has been a few weeks since my return back to the UK from Japan. I had come back about 9 months ago for about 10 days but because I was doing a lot of sight seeing and felt like a tourist, I really didn't feel like I was truly back. Now that I am back living and working in London I've come across the phenomenon of reverse culture shock.

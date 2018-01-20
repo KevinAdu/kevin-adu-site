@@ -2,23 +2,10 @@
 title: 4 Years in Japan
 date: 2017-12-30 09:43:08
 path: "/four-years-in-japan/"
-categories: [Japan]
+categories: [Life]
 tags:
 - Japan
-- Hokkaido
-- Vietnam
-- Friends
-- Working holiday visa
-- Visa
-- Halong bay
-- Hoian
-- Hanoi
-- American English
-- Golden week
-- Silver week
-- Golden Gai
 lang: en
-thumbnail: "./japan-uk.jpg"
 ---
 
 Today marks my 4 year anniversary of moving to Japan. It has definitely been an interesting 4 years filled with joy, sadness, surprises
