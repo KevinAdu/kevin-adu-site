@@ -3,12 +3,14 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import ReactDisqusThread from 'react-disqus-thread';
+import ReactDisqusCounter from 'react-disqus-counter'
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
-    const tagsList = post.frontmatter.tags.map(tag => (<li>{tag}</li>))
+    const tagsList = post.frontmatter.tags.map(tag => (<li key={tag.toString()}>{tag}</li>))
+    const url = get(this.props, 'data.site.siteMetadata.siteUrl') + post.frontmatter.path
 
     return (
       <main>
@@ -18,6 +20,10 @@ class BlogPostTemplate extends React.Component {
           <div className="post-metadata">
             <time className="post-date">{post.frontmatter.date}</time>
             <ul className="post-tags">{tagsList}</ul>
+            <ReactDisqusCounter
+              url={url}
+              shortname='kevinadu'
+            />
           </div>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr />
@@ -38,7 +44,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        author
+        siteUrl
       }
     }
     markdownRemark(frontmatter: { path: { eq: $path } }) {

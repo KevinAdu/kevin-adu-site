@@ -10,13 +10,17 @@
   margin: 0;
 }
 
+.disqus-comment-count,
+.post-tags {
+  font-size: $paragraph-font-size;
+  font-family: $paragraph-font-family;
+  color: $time-font-color;
+}
+
 .post-tags {
   padding: 0;
   margin: 0;
   display: flex;
-  font-size: $paragraph-font-size;
-  font-family: $paragraph-font-family;
-  color: $time-font-color;
 
   > li {
     list-style: none;
