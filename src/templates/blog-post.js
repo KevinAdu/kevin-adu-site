@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
+import ReactDisqusThread from 'react-disqus-thread';
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -17,6 +18,10 @@ class BlogPostTemplate extends React.Component {
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr />
         </article>
+        <ReactDisqusThread
+          shortname="kevinadu"
+          title={post.frontmatter.title}
+          onNewComment={this.handleNewComment}/>
       </main>
     )
   }
