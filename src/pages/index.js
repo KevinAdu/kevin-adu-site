@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-import ReactDisqusCounter from 'react-disqus-counter'
+import PostMetadata from '../components/PostMetadata'
 
 class BlogIndex extends React.Component {
   render() {
@@ -15,7 +15,6 @@ class BlogIndex extends React.Component {
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
           {posts.map(post => {
             if (post.node.path !== '/404/') {
-              const title = get(post, 'node.frontmatter.title') || post.node.path
               const tagsList = post.node.frontmatter.tags.map(tag => (<li>{tag}</li>))
               const url = siteUrl + post.node.frontmatter.path
 
@@ -24,14 +23,11 @@ class BlogIndex extends React.Component {
                     <Link className="post-title" to={post.node.frontmatter.path}>
                       <h2>{post.node.frontmatter.title}</h2>
                     </Link>
-                    <div className="post-metadata">
-                      <time className="post-date">{post.node.frontmatter.date}</time>
-                      <ul className="post-tags">{tagsList}</ul>
-                      <ReactDisqusCounter
-                        url={url}
-                        shortname='kevinadu'
-                      />
-                    </div>
+                    <PostMetadata
+                      date={post.node.frontmatter.date}
+                      tags={tagsList}
+                      url={url}
+                    />
                     <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
                     <Link to={post.node.frontmatter.path}>Read More</Link>
                   </article>

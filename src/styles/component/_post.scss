@@ -10,23 +10,32 @@
   margin: 0;
 }
 
-.disqus-comment-count,
-.post-tags {
+.post-comments,
+.post-tags,
+.post-date {
   font-size: $paragraph-font-size;
   font-family: $paragraph-font-family;
   color: $time-font-color;
+
+  > svg {
+    margin-right: 0.5rem;
+  }
 }
 
 .post-tags {
-  padding: 0;
-  margin: 0;
-  display: flex;
+  > ul {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
 
-  > li {
-    list-style: none;
+    > li {
+      list-style: none;
+      display: inline-block;
 
-    &:not(:first-child) {
-      margin-left: 1rem;
+      &:not(:last-child):after {
+        content: ",";
+        margin-right: 0.25rem;
+      }
     }
   }
 }
