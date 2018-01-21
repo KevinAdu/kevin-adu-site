@@ -6,6 +6,12 @@
   justify-content: space-between;
 }
 
+@media (max-width: 450px) {
+  .post-metadata {
+    flex-direction: column;
+  }
+}
+
 .post-date {
   margin: 0;
 }
@@ -69,6 +75,17 @@
 
     &:hover {
       color: $link-color;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .post-tag-listing {
+    flex-direction: column;
+    align-items: flex-start;
+
+    > a h3 {
+      margin-bottom: 0;
     }
   }
 }

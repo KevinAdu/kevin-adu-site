@@ -1,4 +1,10 @@
 header {
-  width: 1028px;
+  max-width: 1028px;
   margin: 0 auto;
+}
+
+@media (max-width: 450px) {
+  header {
+    margin: 0 1rem;
+  }
 }

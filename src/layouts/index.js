@@ -22,7 +22,7 @@ class Template extends React.Component {
 
     const footer = (
       <footer className="primary-footer">
-        <small>Copyright Kevin Adu {new Date().getFullYear()}</small>
+        <small>&copy; Copyright Kevin Adu {new Date().getFullYear()}</small>
       </footer>
     )
 

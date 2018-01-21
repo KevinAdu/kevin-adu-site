@@ -8,6 +8,12 @@ html {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
+@media (max-width: 450px) {
+  html {
+    font-size: $small-base-font-size;
+  }
+}
+
 *,
 *::before,
 *::after {
