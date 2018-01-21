@@ -16,7 +16,6 @@ class BlogIndex extends React.Component {
           {posts.map(post => {
             if (post.node.path !== '/404/') {
               const tags = post.node.frontmatter.tags
-              const url = siteUrl + post.node.frontmatter.path
 
               return (
                 <article className="post" key={post.node.frontmatter.path}>
@@ -26,7 +25,7 @@ class BlogIndex extends React.Component {
                   <PostMetadata
                     date={post.node.frontmatter.date}
                     tags={tags}
-                    url={url}
+                    url={post.node.frontmatter.path}
                   />
                   <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
                   <Link to={post.node.frontmatter.path}>Read More</Link>

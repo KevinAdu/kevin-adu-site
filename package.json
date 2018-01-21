@@ -1,8 +1,8 @@
 {
   "name": "gatsby-starter-blog-no-styles",
-  "description": "Starter Gatsby Blog No Styles",
+  "description": "Kevin Adu's Blog",
   "version": "1.0.0",
-  "author": "Noah Glusenkamp <noah.glusenkamp@gmail.com>",
+  "author": "Kevin Adu <kevyugi@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
   },
@@ -13,6 +13,7 @@
     "@fortawesome/react-fontawesome": "^0.0.17",
     "gatsby": "^1.8.12",
     "gatsby-link": "^1.6.8",
+    "gatsby-plugin-feed": "^1.3.15",
     "gatsby-plugin-google-analytics": "^1.0.15",
     "gatsby-plugin-google-fonts": "^0.0.3",
     "gatsby-plugin-manifest": "^1.0.4",

@@ -10,7 +10,6 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const tagsList = post.frontmatter.tags.map(tag => (<li key={tag.toString()}>{tag}</li>))
-    const url = get(this.props, 'data.site.siteMetadata.siteUrl') + post.frontmatter.path
 
     return (
       <main>
@@ -20,7 +19,7 @@ class BlogPostTemplate extends React.Component {
           <PostMetadata
             date={post.frontmatter.date}
             tags={tagsList}
-            url={url}
+            url={post.frontmatter.path}
           />
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr />
