@@ -1,0 +1,20 @@
+.tagline {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: $header-font-family;
+  font-weight: 700;
+  color: #565656;
+
+  > li {
+    list-style: none;
+    font-variant: small-caps;
+    line-height: 1;
+    margin: 0 0 1em ;
+    word-spacing: -0.0625em;
+
+    &:first-child {
+      margin-right: 1rem;
+    }
+  }
+}

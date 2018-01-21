@@ -13,6 +13,10 @@ class Template extends React.Component {
             <h1>Kevin Adu</h1>
           </Link>
         </nav>
+        <ul className="tagline">
+          <li>Expat in Japan</li>
+          <li>Web Developer</li>
+        </ul>
       </header>
     )
 
