@@ -1,60 +1,88 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-f8699f2bdc3516ad4c2c.js",
-      "component---src-pages-index-js-f8699f2bdc3516ad4c2c.js.map"
+      "component---src-pages-index-js-815630916a82448db4f7.js",
+      "component---src-pages-index-js-815630916a82448db4f7.js.map"
     ],
     "path---spring-time-and-capsules": [
-      "path---spring-time-and-capsules-ba12efce26d5a7232a53.js",
-      "path---spring-time-and-capsules-ba12efce26d5a7232a53.js.map"
+      "path---spring-time-and-capsules-b116f46a3654a4fb296c.js",
+      "path---spring-time-and-capsules-b116f46a3654a4fb296c.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---tags-inspiration": [
+      "path---tags-inspiration-dc76dd58ab9ebaf1ce01.js",
+      "path---tags-inspiration-dc76dd58ab9ebaf1ce01.js.map"
+    ],
+    "path---tags-spring": [
+      "path---tags-spring-827faff905b0fd48c71e.js",
+      "path---tags-spring-827faff905b0fd48c71e.js.map"
+    ],
+    "component---src-templates-tag-page-js": [
+      "component---src-templates-tag-page-js-22e72f4a9ce1e2d5cb2f.js",
+      "component---src-templates-tag-page-js-22e72f4a9ce1e2d5cb2f.js.map"
+    ],
+    "path---tags-uk": [
+      "path---tags-uk-8504f3ddace101f0a75c.js",
+      "path---tags-uk-8504f3ddace101f0a75c.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-e0fc1535120ac97390f0.js",
-      "component---src-templates-blog-post-js-e0fc1535120ac97390f0.js.map"
+      "component---src-templates-blog-post-js-2946f5eb125cc06e1956.js",
+      "component---src-templates-blog-post-js-2946f5eb125cc06e1956.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-eaf6998f158b7a25f383.js",
-      "component---src-layouts-index-js-eaf6998f158b7a25f383.js.map"
+      "component---src-layouts-index-js-e761cee03a30b8f8c10b.js",
+      "component---src-layouts-index-js-e761cee03a30b8f8c10b.js.map"
     ],
     "path---four-years-in-japan": [
-      "path---four-years-in-japan-b51dac9b74028471b552.js",
-      "path---four-years-in-japan-b51dac9b74028471b552.js.map"
+      "path---four-years-in-japan-2e4740a925f347e74ed3.js",
+      "path---four-years-in-japan-2e4740a925f347e74ed3.js.map"
     ],
     "path---index": [
       "path---index-1988562b9ba163e74518.js",
       "path---index-1988562b9ba163e74518.js.map"
     ],
     "path---since-the-last-blog": [
-      "path---since-the-last-blog-cabd58a9acda71aad469.js",
-      "path---since-the-last-blog-cabd58a9acda71aad469.js.map"
+      "path---since-the-last-blog-945607b7de9f516505d2.js",
+      "path---since-the-last-blog-945607b7de9f516505d2.js.map"
+    ],
+    "path---tags-travel": [
+      "path---tags-travel-112aac1f4eec4fa9b9c6.js",
+      "path---tags-travel-112aac1f4eec4fa9b9c6.js.map"
+    ],
+    "path---tags-goals": [
+      "path---tags-goals-9325b38a312cdc3e9f2d.js",
+      "path---tags-goals-9325b38a312cdc3e9f2d.js.map"
     ],
     "commons": [
-      "commons-f2c19e5a3043fc20aabc.js",
-      "commons-f2c19e5a3043fc20aabc.js.map"
+      "commons-c1e387a126dd2f103ac6.js",
+      "commons-c1e387a126dd2f103ac6.js.map"
+    ],
+    "path---tags-japan": [
+      "path---tags-japan-e2ba132197721597602f.js",
+      "path---tags-japan-e2ba132197721597602f.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-6a27a82eaef42bd30b4e.js",
-      "app-6a27a82eaef42bd30b4e.js.map"
+      "app-ea924ebec3b17967ee73.js",
+      "app-ea924ebec3b17967ee73.js.map"
     ],
     "path---jumping-back-in": [
-      "path---jumping-back-in-354b89fc8efe04d3b0cb.js",
-      "path---jumping-back-in-354b89fc8efe04d3b0cb.js.map"
+      "path---jumping-back-in-83cefd251e7055d12450.js",
+      "path---jumping-back-in-83cefd251e7055d12450.js.map"
     ],
     "path---reverse-culture-shock": [
-      "path---reverse-culture-shock-483be5eb1d5167287d28.js",
-      "path---reverse-culture-shock-483be5eb1d5167287d28.js.map"
+      "path---reverse-culture-shock-dcf60cf760b9507d743b.js",
+      "path---reverse-culture-shock-dcf60cf760b9507d743b.js.map"
     ]
   }
 }
