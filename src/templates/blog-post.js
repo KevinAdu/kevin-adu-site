@@ -11,7 +11,6 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const tagsList = post.frontmatter.tags.map(tag => (<li key={tag.toString()}>{tag}</li>))
     const url = get(this.props, 'data.site.siteMetadata.siteUrl') + post.frontmatter.path
-    console.log(url);
 
     return (
       <main>

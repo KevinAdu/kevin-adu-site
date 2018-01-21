@@ -10,6 +10,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   return new Promise((resolve, reject) => {
     const pages = []
     const blogPost = path.resolve("./src/templates/blog-post.js")
+    const tagPage = path.resolve("./src/templates/tag-page.js")
+    const tagSet = new Set();
     resolve(
       graphql(
         `
@@ -19,6 +21,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             node {
               frontmatter {
                 path
+                tags
               }
             }
           }
@@ -31,16 +34,32 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           reject(result.errors)
         }
 
-        // Create blog posts pages.
         _.each(result.data.allMarkdownRemark.edges, edge => {
+          if (edge.node.frontmatter.tags) {
+            edge.node.frontmatter.tags.forEach(tag => {
+              tagSet.add(tag);
+            });
+          }
+
           createPage({
             path: edge.node.frontmatter.path,
             component: blogPost,
             context: {
               path: edge.node.frontmatter.path,
             },
-          })
-        })
+          });
+        });
+
+        const tagList = Array.from(tagSet);
+        tagList.forEach(tag => {
+          createPage({
+            path: `/tags/${_.kebabCase(tag)}/`,
+            component: tagPage,
+            context: {
+              tag
+            }
+          });
+        });
       })
     )
   })

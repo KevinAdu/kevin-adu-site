@@ -15,22 +15,22 @@ class BlogIndex extends React.Component {
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
           {posts.map(post => {
             if (post.node.path !== '/404/') {
-              const tagsList = post.node.frontmatter.tags.map(tag => (<li>{tag}</li>))
+              const tags = post.node.frontmatter.tags
               const url = siteUrl + post.node.frontmatter.path
 
               return (
-                  <article className="post" key={post.node.frontmatter.path}>
-                    <Link className="post-title" to={post.node.frontmatter.path}>
-                      <h2>{post.node.frontmatter.title}</h2>
-                    </Link>
-                    <PostMetadata
-                      date={post.node.frontmatter.date}
-                      tags={tagsList}
-                      url={url}
-                    />
-                    <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
-                    <Link to={post.node.frontmatter.path}>Read More</Link>
-                  </article>
+                <article className="post" key={post.node.frontmatter.path}>
+                  <Link className="post-title" to={post.node.frontmatter.path}>
+                    <h2>{post.node.frontmatter.title}</h2>
+                  </Link>
+                  <PostMetadata
+                    date={post.node.frontmatter.date}
+                    tags={tags}
+                    url={url}
+                  />
+                  <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
+                  <Link to={post.node.frontmatter.path}>Read More</Link>
+                </article>
               )
             }
           })}

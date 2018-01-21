@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import _ from "lodash";
 import ReactDisqusCounter from 'react-disqus-counter'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import faComment from '@fortawesome/fontawesome-free-solid/faComment'
@@ -9,6 +10,11 @@ import faTags from '@fortawesome/fontawesome-free-solid/faTags'
 class PostMetadata extends React.Component {
   render() {
     const disqusUrl = `${this.props.url}#disqus_thread`;
+    const tagsList = this.props.tags.map(tag => (
+      <Link key={tag} to={`/tags/${_.kebabCase(tag)}`}>
+        <li>{tag}</li>
+      </Link>)
+    );
 
     return (
       <div className="post-metadata">
@@ -18,7 +24,7 @@ class PostMetadata extends React.Component {
         </div>
         <div className="post-tags">
           <FontAwesomeIcon icon={faTags} />
-          <ul>{this.props.tags}</ul>
+          <ul>{tagsList}</ul>
         </div>
         <div className="post-comments">
           <FontAwesomeIcon icon={faComment} />

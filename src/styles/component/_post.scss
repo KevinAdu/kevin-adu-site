@@ -28,14 +28,16 @@
     margin: 0;
     display: inline-block;
 
-    > li {
-      list-style: none;
-      display: inline-block;
-
+    a {
       &:not(:last-child):after {
         content: ",";
-        margin-right: 0.25rem;
+        margin-right: 0.45rem;
       }
+    }
+
+    li {
+      display: inline;
+      list-style: none;
     }
   }
 }
@@ -48,6 +50,21 @@
   }
 
   > h2 {
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $link-color;
+    }
+  }
+}
+
+.post-tag-listing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  > a {
+    text-decoration: none;
     transition: color 0.3s ease;
 
     &:hover {
