@@ -47,3 +47,20 @@ a {
   text-decoration: underline;
   text-decoration-skip: ink;
 }
+
+blockquote {
+  font-style: italic;
+  margin-left: 1.5em;
+  padding: 1.5em 0;
+
+  &> p:before {
+    content:"“";
+    display: inline;
+    font-style: normal;
+  }
+
+  &> p::after {
+    content:"”";
+    font-style: normal;
+  }
+}

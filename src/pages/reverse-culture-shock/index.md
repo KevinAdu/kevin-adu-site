@@ -11,8 +11,6 @@ lang: en
 
 It has been a few weeks since my return back to the UK from Japan. I had come back about 9 months ago for about 10 days but because I was doing a lot of sight seeing and felt like a tourist, I really didn't feel like I was truly back. Now that I am back living and working in London I've come across the phenomenon of reverse culture shock.
 
-<!-- more -->
-
 Firstly though, what is [culture shock](http://www.oxforddictionaries.com/definition/english/culture-shock)? In the Oxford Dictionary, culture shock can be defined as this:
 
 > The feeling of disorientation experienced by someone when they are suddenly subjected to an unfamiliar culture, way of life, or set of attitudes

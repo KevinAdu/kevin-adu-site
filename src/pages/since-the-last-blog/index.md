@@ -13,7 +13,6 @@ lang: en
 Hey everyone! Long time no see!
 
 It has definitely been a while since I have written any sort of blog post. First of all I would like to say sorry for not being able to continue with my blog about how my life was going on in Japan. When I had stopped writing blog posts I received quite a few messages asking me, "Where the heck have your posts gone?". So I decided to bring the blog back and properly inform you of not only what I am doing in Japan, but also an insight into what Japanese culture truly is. Before that though, let me give you an update of what I have been doing for the past year and a bit.
-<!-- more -->
 
 The last thing I posted was about my trip to [Hokkaido](https://en.wikipedia.org/wiki/Hokkaido) with the Yoshino family. It has been more than a whole year since then, so a lot has happened but I'll summarise it to the major things. One of the big things was having my visa extended, so I shall quickly explain how the whole visa matter works. Since there is a good relationship between the UK and Japan, up to 1000 UK citizens aged between 18 - 30 years old are entitled to a [Working Holiday Visa](http://www.uk.emb-japan.go.jp/en/visa/working-holiday.html). This visa allows you to travel and work in Japan for one year. After it expires you can then apply for various other visas that allow you to stay longer in the country. My time was running out and I had decided I want to stay longer in Japan. Luckily, I had a company sponsor me and I could stay another year due to my new Working Visa.
 
