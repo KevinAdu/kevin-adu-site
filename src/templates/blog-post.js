@@ -6,6 +6,14 @@ import ReactDisqusThread from 'react-disqus-thread';
 import PostMetadata from '../components/PostMetadata';
 
 class BlogPostTemplate extends React.Component {
+  componentDidMount() {
+    const images = document.querySelectorAll('.article img')
+    images.forEach(image => {
+      const imgCaption = `<figcaption class="post-image-caption">${image.alt}</figcaption>`
+      image.insertAdjacentHTML('afterend', imgCaption);
+    })
+  }
+
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')

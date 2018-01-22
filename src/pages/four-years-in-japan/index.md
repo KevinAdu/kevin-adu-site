@@ -23,6 +23,6 @@ One aspect of Japan that has changed me is how people focus there effort on one 
 
 I have come across many experiences here in Japan. Some good and some bad. Good experiences of being loved by friends and past partners and being able to communicate with them freely about anything I had been struggling with. Bad experiences of losing some of these relationships which had made me distraught. Good experiences of being able to explore Japan with friends which often meant getting extremely drunk but lead to some of the most amazing nights I’ve ever had. Bad experiences of being too poor that not only I’m unable to leave the house and trying to survive on instant yakisoba noodles for weeks. Life is full of these experiences and these experiences have made me what I am today.
 
-![I owe my life Peyang Instant Yakisoba noodles](./yakisoba.jpg)
+![I owe my life to Peyang Instant Yakisoba noodles](./yakisoba.jpg)
 
 A question I have been asked a million times now is “Will you stay in Japan for good?”. Honestly I’m still not sure, even though I am still incredibly comfortable my home is in the UK and I do miss it. One thing I do know is that I am attempting to get permanent residency here. Not exactly because I want to stay here forever but because I want the flexibility of choosing where I will live in the future. I do love Japan, it is my second home now where many of my good friends reside so I don’t want to the lose ability of moving back if I do move away. That being said I think I will definitely be here in Japan a while before I consider leaving.

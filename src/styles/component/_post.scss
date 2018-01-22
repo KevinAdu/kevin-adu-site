@@ -79,6 +79,16 @@
   }
 }
 
+.post-image-caption {
+  position: absolute;
+  bottom: -1.66rem;
+  font-size: 0.86rem;
+}
+
+.gatsby-resp-image-wrapper {
+  margin-bottom: 4rem;
+}
+
 @media (max-width: 450px) {
   .post-tag-listing {
     flex-direction: column;
@@ -87,5 +97,11 @@
     > a h3 {
       margin-bottom: 0;
     }
+  }
+
+  .post-image-caption {
+    bottom: -2.3rem;
+    font-size: 0.66rem;
+
   }
 }
