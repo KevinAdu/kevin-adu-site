@@ -12,6 +12,11 @@ class Template extends React.Component {
           <Link to={'/'} className="nav-hero">
             <h1>Kevin Adu</h1>
           </Link>
+          <ul className="nav-links">
+            <Link to={'/about'}>
+              <li>About</li>
+            </Link>
+          </ul>
         </nav>
         <ul className="tagline">
           <li>Expat in Japan</li>

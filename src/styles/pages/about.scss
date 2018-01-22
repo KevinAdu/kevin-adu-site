@@ -1,0 +1,31 @@
+.social-links {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: $paragraph-font-family;
+  font-size: $small-font-size;
+  justify-content: space-around;
+
+  > li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: $header-font-color;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $link-color;
+    }
+
+    > svg {
+      font-size: $h1-font-size;
+    }
+
+    > small {
+      margin-top: 0.375em;
+    }
+  }
+}
