@@ -1,5 +1,9 @@
 {
   "assetsByChunkName": {
+    "path---how-im-studying-japanese": [
+      "path---how-im-studying-japanese-237a7e1b37c3964fad87.js",
+      "path---how-im-studying-japanese-237a7e1b37c3964fad87.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-ffb737b0f075a51cd69e.js",
       "component---src-pages-index-js-ffb737b0f075a51cd69e.js.map"
@@ -44,9 +48,17 @@
       "path---four-years-in-japan-49571f2741e907ac1127.js",
       "path---four-years-in-japan-49571f2741e907ac1127.js.map"
     ],
+    "path---tags-language": [
+      "path---tags-language-6c6181206770371978ed.js",
+      "path---tags-language-6c6181206770371978ed.js.map"
+    ],
     "path---index": [
-      "path---index-1988562b9ba163e74518.js",
-      "path---index-1988562b9ba163e74518.js.map"
+      "path---index-2c2569e3969cacea71c2.js",
+      "path---index-2c2569e3969cacea71c2.js.map"
+    ],
+    "path---tags-japanese": [
+      "path---tags-japanese-15043c0c51dc7f6e9e59.js",
+      "path---tags-japanese-15043c0c51dc7f6e9e59.js.map"
     ],
     "path---since-the-last-blog": [
       "path---since-the-last-blog-30bc8186f285c92a132a.js",
@@ -73,8 +85,8 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-e1be74c6073f009591e2.js",
-      "app-e1be74c6073f009591e2.js.map"
+      "app-506a9fa9ee87353d777a.js",
+      "app-506a9fa9ee87353d777a.js.map"
     ],
     "path---jumping-back-in": [
       "path---jumping-back-in-2e256f52cd97ac5adcbe.js",

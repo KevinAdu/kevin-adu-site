@@ -1,4 +1,296 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kevin Adu's Blog]]></title><description><![CDATA[A blog by Kevin Adu mainly writing about Japan and Web Development]]></description><link>http://blog.kevinadu.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 23 Jan 2018 08:25:01 GMT</lastBuildDate><item><title><![CDATA[4 Years in Japan]]></title><description><![CDATA[Today marks my 4 year anniversary of moving to Japan. It has definitely been an interesting 4 years filled with joy, sadness, surprises
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kevin Adu's Blog]]></title><description><![CDATA[A blog by Kevin Adu mainly writing about Japan and Web Development]]></description><link>http://blog.kevinadu.com</link><generator>RSS for Node</generator><lastBuildDate>Sun, 04 Feb 2018 12:57:33 GMT</lastBuildDate><item><title><![CDATA[How I'm studying Japanese]]></title><description><![CDATA[At the end of 2017, I took the  JLPT (Japanese Language Proficiency Test)  exam for the grade N2 for the third time. N2 is the second…]]></description><link>http://blog.kevinadu.com/how-im-studying-japanese/</link><guid isPermaLink="false">http://blog.kevinadu.com/how-im-studying-japanese/</guid><pubDate>Tue, 30 Jan 2018 21:49:08 GMT</pubDate><content:encoded>&lt;p&gt;At the end of 2017, I took the &lt;a href=&quot;http://www.jlpt.jp/e/about/message.html&quot;&gt;JLPT (Japanese Language Proficiency Test)&lt;/a&gt; exam for the grade N2 for the third time. N2 is the second hardest level you can take for the JLPT, it can be equated to intermediate or upper intermediate level. A few days ago, I received the results for my third attempt and to my surprise not only did I pass, I managed to obtain a perfect score in listening. I had been slacking a lot in my Japanese studies for a while hence why I failed twice before so I wanted to go back the regime which helped me improve my Japanese quite quickly in the beginning. Since a few people have asked how do I study Japanese, I thought I would list the different resource and techniques I have been using so far.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/anki-screenshot-175e7c48dea53b15418f0657a3063f9d-639eb.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 559px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 108.94454382826476%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsSAAALEgHS3X78AAACUElEQVQ4y62VXYsSURjH3Q0iaOkFuoq6iCiIoK6DiO76CNV936APEHTjxcJ+gbooKowlzdQ1atl8ObvrjO85jtmurK+Quuo6o844Kvx7dB13bWsR7cCPh3POw4/nDOc8YzAcjDlifgbmDrkMJ9OuNZaIWQWW3BRSqdSIbx6vEA6FB4QIQYiP7euIomgkzwm9sgvlcrlerVVxmHQ6DR/HIZvNQhTjiMVi8AcCYznFYhEc5fA8/5E8C4ZhuZcURZG63S6mJZPJOMhzThde1jRNwgwjn8/3hedHwkW+KS2FNEzLs88748JrL+vS9Vct/MnjFQVPvih46FBg9Km4v3w0p8+Vpa3JhI9IaORUPHWrWKT4wDyj8Nab/XjjdQu33+7HiYTLsapkTsiYlheu5Liw1WoduTaa1oF/R0ahpkIoNBHNNVCsq3+9NnRnJxOWpDb2mhrqREVuo6FokwvpLg422+32UKhBX9Pn/dih2Ol0Rnn/FFZ2d/E9EgVjDNFIGJFwBMzL6NmJ2Fhfh8fthp/3I0rrHEWvx0N4Byc59sh7tdpAwNMbDQZDRBCcjwN1BmxubJCUR1xMHH9kVVWlXq+HaaEGMi7872951gqH3eZAKMuylM/lQG0MzWYT9E2xvb2FXL6AXxUJvkAM9YaKH9QX65I8yOlTKhWRTP6EEI+PCS9+XV0122w2j8PhYBQHWCwWZrfb2XvLCnv3wc7Mn5zMarUym902yqF8r9PpdJlMpufkOat37DPETeIucW8K7hBXiVP6P2V+OFmYktP9/1K/uN9IQnP0fcJBDQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Anki, an SRS flashcard application which can be used to learn vocabulary and grammar&quot;
+        title=&quot;&quot;
+        src=&quot;/static/anki-screenshot-175e7c48dea53b15418f0657a3063f9d-639eb.png&quot;
+        srcset=&quot;/static/anki-screenshot-175e7c48dea53b15418f0657a3063f9d-4cbcd.png 148w,
+/static/anki-screenshot-175e7c48dea53b15418f0657a3063f9d-85067.png 295w,
+/static/anki-screenshot-175e7c48dea53b15418f0657a3063f9d-639eb.png 559w&quot;
+        sizes=&quot;(max-width: 559px) 100vw, 559px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://apps.ankiweb.net/&quot;&gt;Anki&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Anki is where I do the bulk of my studying. Anki is a wonderful application that allows you to memorise things quickly. It’s simply a flashcard application which incorporates &lt;a href=&quot;https://www.theguardian.com/education/2016/jan/23/spaced-repetition-a-hack-to-make-your-brain-store-information&quot;&gt;SRS (Space Repetition System)&lt;/a&gt;. The way I use it is to review anything new that I have come across in my studies. Whether it’s a grammar point I learnt from a textbook or an unknown word I picked up from a Japanese drama,  it all gets added to Anki so I can memorise it sometime in the future. I usually use Anki when I’m on the train to and from work as my commute gives me ample time to go through as many flashcards as possible.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ushijima-kun-d1ca13c8e9af60a77dfef06d8dd8d83d-5a71e.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 40.53333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhADEAAAAZAcwj//xAAYEAEAAwEAAAAAAAAAAAAAAAACAAERA//aAAgBAQABBQJGrpPIuq3/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAADAQEAAAAAAAAAAAAAAAAAASERMf/aAAgBAQAGPwLlSJhMP//EABoQAAICAwAAAAAAAAAAAAAAAAERACExUXH/2gAIAQEAAT8huFUmUjHsgM0D2f/aAAwDAQACAAMAAAAQg+//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxBn/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QJ//EABoQAQADAQEBAAAAAAAAAAAAAAEAESExkaH/2gAIAQEAAT8QRlTnKHnmwSbtio1Rz7LW2GUif//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Ushijima-kun, one of the more recent dramas that I enjoyed&quot;
+        title=&quot;&quot;
+        src=&quot;/static/ushijima-kun-d1ca13c8e9af60a77dfef06d8dd8d83d-f8fb9.jpg&quot;
+        srcset=&quot;/static/ushijima-kun-d1ca13c8e9af60a77dfef06d8dd8d83d-e8976.jpg 148w,
+/static/ushijima-kun-d1ca13c8e9af60a77dfef06d8dd8d83d-63df2.jpg 295w,
+/static/ushijima-kun-d1ca13c8e9af60a77dfef06d8dd8d83d-f8fb9.jpg 590w,
+/static/ushijima-kun-d1ca13c8e9af60a77dfef06d8dd8d83d-5a71e.jpg 750w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;Dramas/Anime&lt;/h3&gt;
+&lt;p&gt;Watching anime or dramas helps with your listening and helps you to understand Japanese culture much better. I think when learning a language understanding the culture is key to having natural conversation to a culture you aren’t yet accustomed to. Simply learning the words and trying to translate from English to Japanese in your head and say what you’ve translated will seem very unnatural. From dramas and anime, not only can you learn about culture but you will pick many interesting expressions used throughout daily life. For studying purposes, I watch with Japanese subtitles only. With English subtitles, I tend to be concentrating on just reading the English subtitles rather than focusing on what the characters are saying. With Japanese subtitles, whilst you read it, you can confirm what you have read while listening to the dialogue. Also if you couldn’t catch what someone said, you can rewind and check with the Japanese subtitles.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/hunter-hunter-volume-91709af8b085ade69b834ea923345a4b-db559.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 79.375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAADBf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/9oADAMBAAIQAxAAAAFTecySqyqH/8QAGxAAAgMAAwAAAAAAAAAAAAAAAQIDERIAIjL/2gAIAQEAAQUClapT5HYNExYXldc//8QAFhEBAQEAAAAAAAAAAAAAAAAAABEx/9oACAEDAQE/AdR//8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AVUU/8QAGRABAQEBAQEAAAAAAAAAAAAAAQAREiMx/9oACAEBAAY/Aj0Qt2Ft4g5vl//EABoQAAIDAQEAAAAAAAAAAAAAAAERAEFRIYH/2gAIAQEAAT8hAoKTAE5EPUC0LZcR6oFdA4MjBT2f/9oADAMBAAIAAwAAABB03//EABcRAAMBAAAAAAAAAAAAAAAAAAAhYfD/2gAIAQMBAT8QpGs//8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERMUH/2gAIAQIBAT8QswTzp//EABsQAQEAAwEBAQAAAAAAAAAAAAERACExQYGh/9oACAEBAAE/EBO6tU73fme99o+u+X8wQiI0OMk6btkd8w7RKggYo1w8Nc//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;One of my favourite mangas of all time, Hunter x Hunter&quot;
+        title=&quot;&quot;
+        src=&quot;/static/hunter-hunter-volume-91709af8b085ade69b834ea923345a4b-f8fb9.jpg&quot;
+        srcset=&quot;/static/hunter-hunter-volume-91709af8b085ade69b834ea923345a4b-e8976.jpg 148w,
+/static/hunter-hunter-volume-91709af8b085ade69b834ea923345a4b-63df2.jpg 295w,
+/static/hunter-hunter-volume-91709af8b085ade69b834ea923345a4b-f8fb9.jpg 590w,
+/static/hunter-hunter-volume-91709af8b085ade69b834ea923345a4b-db559.jpg 640w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;Manga/Novels&lt;/h3&gt;
+&lt;p&gt;Reading will help you strengthen your vocabulary and grammar knowledge. I think it’s important to read both manga and novels. In Japanese, there is a massive difference between written and spoken language. The difference between manga and novels distinctly highlight it and it is very useful to know this especially if you’re going for the JLPT qualifications.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/nihongo-so-matome-ddcef55c17fec932511371e3bc1d3190-1e164.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 300px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 91.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAASABQDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB7EbJYqy5AB//xAAbEAEAAgMBAQAAAAAAAAAAAAABAAIDESESE//aAAgBAQABBQJ39De8StMlykvyuO3qiDGHD//EABYRAAMAAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwEd/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHBABAAMAAgMAAAAAAAAAAAAAAQARIQJBECIx/9oACAEBAAY/AijO2cimup7FM1+y1oJZs08//8QAHBABAAMAAgMAAAAAAAAAAAAAAQARITFxQWGB/9oACAEBAAE/IWTVfwm+I8r5lk1uIyLngRCM0NQCTtEMHuAcSyEoAD1P/9oADAMBAAIAAwAAABCcGAD/xAAaEQABBQEAAAAAAAAAAAAAAAAAARARITFB/9oACAEDAQE/EOJRolv/xAAWEQADAAAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QFf/EABsQAAIDAQEBAAAAAAAAAAAAAAERACExUUFx/9oACAEBAAE/EA9VJZXEMheQ23zcBCmLcdRn4JhVbkHhBkImixqz7szQmkagEBE0EMQM4gCE/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;The Nihongo So Matome Series, my JLPT textbook of choice&quot;
+        title=&quot;&quot;
+        src=&quot;/static/nihongo-so-matome-ddcef55c17fec932511371e3bc1d3190-1e164.jpg&quot;
+        srcset=&quot;/static/nihongo-so-matome-ddcef55c17fec932511371e3bc1d3190-478c5.jpg 148w,
+/static/nihongo-so-matome-ddcef55c17fec932511371e3bc1d3190-85068.jpg 295w,
+/static/nihongo-so-matome-ddcef55c17fec932511371e3bc1d3190-1e164.jpg 300w&quot;
+        sizes=&quot;(max-width: 300px) 100vw, 300px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;JLPT Textbooks&lt;/h3&gt;
+&lt;p&gt;Whilst I have been studying Japanese, I have been taking the JLPT to give myself an aim so I can continue improving. I have bought textbooks to help study for the exams. Not only are these useful for passing exams, I personally feel they help fill the blanks with discovering common words you may have not come across yet in your studies. The grammar points that you need to know for the JLPT are split between written and spoken Japanese. I personally use the &lt;a href=&quot;https://www.tofugu.com/reviews/nihongo-so-matome/&quot;&gt;Nihongo So Matome series&lt;/a&gt; as my JLPT textbook of choice.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/tae-kim-446227600dbc97aec728db6df0d0b739-d45ff.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 350px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 142.57142857142858%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAdABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIBAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQT/2gAMAwEAAhADEAAAAfKq9GGWlVzxLC//xAAXEAADAQAAAAAAAAAAAAAAAAAAARAR/9oACAEBAAEFAoqhGzTRH//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/ASn/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAXEAADAQAAAAAAAAAAAAAAAAAAEDEw/9oACAEBAAY/AnCYf//EABwQAAMBAAIDAAAAAAAAAAAAAAABESExQRCBof/aAAgBAQABPyHxxFZlaO9X6O2QaIhrj6xFITJQa6z/2gAMAwEAAgADAAAAEPsZ8f/EABgRAAIDAAAAAAAAAAAAAAAAAAABEBEx/9oACAEDAQE/EKFkEf/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxDVYr//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMUFR/9oACAEBAAE/EFbdlv2JvvsHkNXVypsLd2QJqy+VyUd8XNY4nPpL3o79hmHDkUBxbSIVLbn/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Tae Kim&apos;s Grammar guide really helped me understand the basis of Japanese grammar&quot;
+        title=&quot;&quot;
+        src=&quot;/static/tae-kim-446227600dbc97aec728db6df0d0b739-d45ff.jpg&quot;
+        srcset=&quot;/static/tae-kim-446227600dbc97aec728db6df0d0b739-b16f2.jpg 148w,
+/static/tae-kim-446227600dbc97aec728db6df0d0b739-dc3a7.jpg 295w,
+/static/tae-kim-446227600dbc97aec728db6df0d0b739-d45ff.jpg 350w&quot;
+        sizes=&quot;(max-width: 350px) 100vw, 350px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;http://www.guidetojapanese.org/learn/grammar&quot;&gt;Tae Kim’s Grammar guide&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;In the beginning I was trying to decide, how should I learn grammar. I think grammar is the most important aspect of a language. In order for you to sound coherent while you are speaking or writing, you need to have a good grasp on the grammar of the language. There’s a lot of debate over which Japanese grammar book you should use when you start learning Japanese. I personally use Tae Kim’s Grammar Guide which is great free resource. A lot of people don’t like it because of its lack of practical questions to reinforce what you have learnt and that it also starts with non-polite Japanese. I mainly like it because it gets straight to the point. I add the example sentences  into Anki and if I need further examples I find it from another source such as a novel or manga.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dictionary-of-japanese-grammar-d183e18b8ec98684b730ff6f020ef812-a402e.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.9%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQL/2gAMAwEAAhADEAAAAe6m0RWqTS7/AP/EABoQAQADAAMAAAAAAAAAAAAAAAEAAgMRExT/2gAIAQEAAQUCrdoGxPZGpwZM6mf/xAAXEQEBAQEAAAAAAAAAAAAAAAABABES/9oACAEDAQE/AUduC//EABgRAQEAAwAAAAAAAAAAAAAAAAEAAhIh/9oACAECAQE/AcETttf/xAAbEAEAAgIDAAAAAAAAAAAAAAAAESEBMTJBof/aAAgBAQAGPwKGnD1WIW6f/8QAGxABAQEAAgMAAAAAAAAAAAAAAQARITFRYXH/2gAIAQEAAT8hVR7v13ByGsFecteI4vdP/9oADAMBAAIAAwAAABD0D//EABgRAAIDAAAAAAAAAAAAAAAAAAABESFh/9oACAEDAQE/EF0hUZH/xAAYEQEBAAMAAAAAAAAAAAAAAAABACExcf/aAAgBAgEBPxBqvJq7v//EABwQAQACAgMBAAAAAAAAAAAAAAEAESExQZHB8f/aAAgBAQABPxAjFiXqOmwpGGa4hCWaN/EbLdAFdS0oBBDwn//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;All three grammar dictionaries have every grammar point you can think covered&quot;
+        title=&quot;&quot;
+        src=&quot;/static/dictionary-of-japanese-grammar-d183e18b8ec98684b730ff6f020ef812-f8fb9.jpg&quot;
+        srcset=&quot;/static/dictionary-of-japanese-grammar-d183e18b8ec98684b730ff6f020ef812-e8976.jpg 148w,
+/static/dictionary-of-japanese-grammar-d183e18b8ec98684b730ff6f020ef812-63df2.jpg 295w,
+/static/dictionary-of-japanese-grammar-d183e18b8ec98684b730ff6f020ef812-f8fb9.jpg 590w,
+/static/dictionary-of-japanese-grammar-d183e18b8ec98684b730ff6f020ef812-85e3d.jpg 885w,
+/static/dictionary-of-japanese-grammar-d183e18b8ec98684b730ff6f020ef812-a402e.jpg 1000w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://www.tofugu.com/reviews/dictionary-of-basic-japanese-grammar/&quot;&gt;A Dictionary of Japanese Grammar Series&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;In my day to day life, whilst reading or even talking I always seem to come across a grammar point I didn’t know. A Dictionary of Japanese Grammar contains three dictionaries one for a different level of Japanese (Beginner, Intermediate and Advanced). They contain a somewhat never-ending list of grammar points with thorough explanations and example sentences to back them up. I tend to use this when I keep coming across a grammar point I just don’t understand or pair this Tae Kim’s Grammar guide to gain a further understanding on a particular point.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/wanikani-f6be57c41e45956bdb865458dfe87138-29f80.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 49.36632468316235%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAAp0lEQVQoz83MPQoCMRCG4VnEQhErj7P92ucAqYW9h4ewsVl/Cls7O8WrCIGQnyVkk4VPQbFRNhZbWDwMzLwMhWGFkG26DbYIs0Nn00z2aMY7kM7WSLHshHpxgZ5WyZZu2Qopcn6EKs/4paXraIk+UZ7nSGGMgXOOoiiSLcUY0bZtpxACnHPJznsPsraGtfal/phKqQf9nsY898aYr3eSUqJP//1QCIE7egZshZRjXMQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Wanikani, the ultimate kanji learning application hands down&quot;
+        title=&quot;&quot;
+        src=&quot;/static/wanikani-f6be57c41e45956bdb865458dfe87138-fb8a0.png&quot;
+        srcset=&quot;/static/wanikani-f6be57c41e45956bdb865458dfe87138-1a291.png 148w,
+/static/wanikani-f6be57c41e45956bdb865458dfe87138-2bc4a.png 295w,
+/static/wanikani-f6be57c41e45956bdb865458dfe87138-fb8a0.png 590w,
+/static/wanikani-f6be57c41e45956bdb865458dfe87138-526de.png 885w,
+/static/wanikani-f6be57c41e45956bdb865458dfe87138-fa2eb.png 1180w,
+/static/wanikani-f6be57c41e45956bdb865458dfe87138-29f80.png 1657w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://www.wanikani.com/&quot;&gt;Wanikani&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Kanji is the biggest bane for anybody with no experience reading Chinese characters. Kanji are the Chinese characters used in the Japanese language and there are 2000 commonly known kanji. I have tried many methods to learn kanji from continuously writing the character down until I remember to &lt;a href=&quot;https://www.amazon.com/Remembering-Kanji-Complete-Japanese-Characters/dp/0824835921&quot;&gt;Heisig’s Remembering the Kanji&lt;/a&gt; method. WaniKani is an application created by the people who own the Japanese blog &lt;a href=&quot;https://www.tofugu.com/&quot;&gt;Tofugu&lt;/a&gt;. Kanji is presented in groups which contain similar patterns making it much easier to learn and more importantly remember. It also provides mnemonics  and present them to you in the best order for learning kanji. Unfortunately it’s not a free application but they do give a trial. I really recommend trying it out.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/jisho-8faff5a24e0290b505490ec970421f5d-9a45b.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 62.52319109461967%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABqElEQVQ4y5VS7W6bQBDk/V+l/dPHiNs/lVzFwq4CUcQ3HAccHPfhye4ZK07URjHS6lhxzMzObPT9xzc8POzQ9z3ufaTSkJOGWgx6OlfrEBVFgaqqYIyBtRbNaKCNhXPurlqWJfwfTdMELgbUWiN+rjGq5W7AeZ7D/1Fd1+g6QdWhFz2KbsL5fP50VCb33od7H+9Gp9OJ/BPBw2EYvuTdMY7Rti3KsoSUEkqpQBAAk/QJ1tnQMGBRlMiyHE3Thvd/PYfDAWmaIk1SPNN5ESUvgLvHP/j99xgaQWMzWJIkIShmZn/HccSs5negI5E3QmIh79Z1fVP4Ug1YjQsNA2RZFkYpSV3bdhBCBMNvveJ3TnXWBoqKe0Mrw2d0y8pq8jzHdZV4Da4p3gLyd/ac/WPCpmno7kVUdE3qK+VoLO/P2O/3NEGBOD4iIQ+PdPqNMPq1+wm5pcuMnF5V1TSC/TRpVpYTqCb/rPNvaxPnJyR1GhreRx6HvVTkG3un1FZkx6JXIvLbRkh0wxy84wyc3xQ+vXRoxXRJbtYhrf8VK+GReQpWeFsFBci2vAISTfAuQauVPgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;A very good and thorough online Japanese dictionary&quot;
+        title=&quot;&quot;
+        src=&quot;/static/jisho-8faff5a24e0290b505490ec970421f5d-fb8a0.png&quot;
+        srcset=&quot;/static/jisho-8faff5a24e0290b505490ec970421f5d-1a291.png 148w,
+/static/jisho-8faff5a24e0290b505490ec970421f5d-2bc4a.png 295w,
+/static/jisho-8faff5a24e0290b505490ec970421f5d-fb8a0.png 590w,
+/static/jisho-8faff5a24e0290b505490ec970421f5d-526de.png 885w,
+/static/jisho-8faff5a24e0290b505490ec970421f5d-9a45b.png 1078w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;http://jisho.org/&quot;&gt;Jisho.org&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;My go-to online Japanese dictionary which I use everyday. It has a ton of features compared to your standard dictionary. You can search by a drawing of the word, radical or even voice. The dictionary informs you if it is a common word or not, which level it shows up in Wanikani and even the JLPT level. If you don’t know how to pronounce it, there’s audio and even examples sentences using the word.&lt;/p&gt;
+&lt;h3&gt;Speaking to yourself&lt;/h3&gt;
+&lt;p&gt;As strange and controversial as this sounds, speaking to myself in my room helped me immensely in the beginning. When I started living in Japan, I didn’t know too many people but there is still an abundant amount of native speakers that you can engage in conversation be it in a bar or language exchange etc. For me and many other people I have spoken too, there is an anxiety to speaking in a foreign language when you begin to learn it. Speaking to yourself helps you get over this. You start to get over that anxiety by discovering your mistakes when you’re conversing; finding out which words or grammar points you don’t know that stop you from expressing yourself and just to used to the rhythm of conversation in a foreign language in general. Although this technique has it merits, it may become a habit so please execute with caution.&lt;/p&gt;
+&lt;p&gt;The list may seem a bit overwhelming but as with anything I assure you if you continue to practice everyday, not only will you improve but you will notice your improvements and that will keep the motivation going. If anyone has any other methods of learning a second language, please do let me know. I’m always curious to try a method I haven’t come across.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[4 Years in Japan]]></title><description><![CDATA[Today marks my 4 year anniversary of moving to Japan. It has definitely been an interesting 4 years filled with joy, sadness, surprises
  and…]]></description><link>http://blog.kevinadu.com/four-years-in-japan/</link><guid isPermaLink="false">http://blog.kevinadu.com/four-years-in-japan/</guid><pubDate>Sat, 30 Dec 2017 09:43:08 GMT</pubDate><content:encoded>&lt;p&gt;Today marks my 4 year anniversary of moving to Japan. It has definitely been an interesting 4 years filled with joy, sadness, surprises
 and whole bunch of other indescribable feelings. I still believe to this day it was one of the best decisions I have made in my life.&lt;/p&gt;
 &lt;p&gt; 
