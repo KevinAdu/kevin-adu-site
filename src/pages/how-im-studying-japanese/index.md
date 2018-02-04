@@ -34,13 +34,13 @@ Reading will help you strengthen your vocabulary and grammar knowledge. I think 
 
 Whilst I have been studying Japanese, I have been taking the JLPT to give myself an aim so I can continue improving. I have bought textbooks to help study for the exams. Not only are these useful for passing exams, I personally feel they help fill the blanks with discovering common words you may have not come across yet in your studies. The grammar points that you need to know for the JLPT are split between written and spoken Japanese. I personally use the [Nihongo So Matome series](https://www.tofugu.com/reviews/nihongo-so-matome/) as my JLPT textbook of choice.
 
-![Tae Kim's Grammar guide really helped me understand the basis of Japanese grammar](./tae-kim.jpg)
+![Tae Kim's Grammar guide really helped me over the years](./tae-kim.jpg)
 
 ### [Tae Kim’s Grammar guide](http://www.guidetojapanese.org/learn/grammar)
 
 In the beginning I was trying to decide, how should I learn grammar. I think grammar is the most important aspect of a language. In order for you to sound coherent while you are speaking or writing, you need to have a good grasp on the grammar of the language. There's a lot of debate over which Japanese grammar book you should use when you start learning Japanese. I personally use Tae Kim's Grammar Guide which is great free resource. A lot of people don't like it because of its lack of practical questions to reinforce what you have learnt and that it also starts with non-polite Japanese. I mainly like it because it gets straight to the point. I add the example sentences  into Anki and if I need further examples I find it from another source such as a novel or manga.
 
-![All three grammar dictionaries have every grammar point you can think covered](./dictionary-of-japanese-grammar.jpg)
+![All three grammar dictionaries has every grammar point you can think covered](./dictionary-of-japanese-grammar.jpg)
 
 ### [A Dictionary of Japanese Grammar Series](https://www.tofugu.com/reviews/dictionary-of-basic-japanese-grammar/)
 
