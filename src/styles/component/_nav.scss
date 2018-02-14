@@ -19,6 +19,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
 
   > a {
     color: $header-font-color;
@@ -28,6 +29,10 @@
 
     &:hover {
       color: $link-color;
+    }
+
+    &:not(:first-child) {
+      padding-left: 1rem;
     }
   }
 }
