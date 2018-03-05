@@ -17,7 +17,7 @@ class Template extends React.Component {
               <li>About</li>
             </Link>
             <a href="/rss.xml">
-              <li>Subscribe</li>
+              <li>RSS Feed</li>
             </a>
           </ul>
         </nav>
