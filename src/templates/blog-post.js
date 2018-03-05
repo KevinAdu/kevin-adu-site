@@ -17,7 +17,7 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
-    const tagsList = post.frontmatter.tags.map(tag => (<li key={tag.toString()}>{tag}</li>))
+    const tagsList = post.frontmatter.tags
 
     return (
       <main>
