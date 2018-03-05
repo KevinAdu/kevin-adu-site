@@ -60,3 +60,14 @@ Template.propTypes = {
 }
 
 export default Template
+
+export const pageQuery = graphql`
+  query AboutQuery {
+    site {
+      siteMetadata {
+        title
+        siteUrl
+      }
+    }
+  }
+`
