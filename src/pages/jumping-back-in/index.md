@@ -3,7 +3,8 @@ title: Jumping back in
 lang: en
 date: 2016-08-24 08:01:49
 path: "/jumping-back-in/"
-categories: [Life]
+categories:
+- Life
 tags:
 - Goals
 - Inspiration

@@ -1,7 +1,8 @@
 ---
 title: Spring Time and Capsules
 date: 2016-05-11 23:43:09
-categories: Life
+categories:
+- Life
 path: "/spring-time-and-capsules/"
 tags:
 - Japan
