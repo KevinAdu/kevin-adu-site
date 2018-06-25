@@ -2,8 +2,7 @@
 title: Reverse Culture Shock
 date: 2016-02-08 20:53:47
 path: "/reverse-culture-shock/"
-categories:
-- Life
+categories: Life
 tags:
 - Japan
 - UK
