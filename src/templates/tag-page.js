@@ -10,7 +10,6 @@ class TagPageTemplate extends React.Component {
     const tag = this.props.pathContext.tag;
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const posts = this.props.data.allMarkdownRemark.edges;
-    console.log(posts);
 
     return (
       <main>
