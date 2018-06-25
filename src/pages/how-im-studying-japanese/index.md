@@ -2,7 +2,7 @@
 title: How I'm studying Japanese
 date: 2018-01-30 21:49:08
 path: "/how-im-studying-japanese/"
-categories: Japanese
+category: Japanese
 tags:
 - Japanese
 - Language

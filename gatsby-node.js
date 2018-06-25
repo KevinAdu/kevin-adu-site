@@ -11,7 +11,9 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     const pages = []
     const blogPost = path.resolve("./src/templates/blog-post.js")
     const tagPage = path.resolve("./src/templates/tag-page.js")
+    const categoryPage = path.resolve("./src/templates/category-page.js")
     const tagSet = new Set();
+    const categorySet = new Set();
     resolve(
       graphql(
         `
@@ -22,6 +24,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               frontmatter {
                 path
                 tags
+                category
               }
             }
           }
@@ -41,6 +44,10 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             });
           }
 
+          if (edge.node.frontmatter.category) {
+            categorySet.add(edge.node.frontmatter.category);
+          }
+
           createPage({
             path: edge.node.frontmatter.path,
             component: blogPost,
@@ -57,6 +64,17 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             component: tagPage,
             context: {
               tag
+            }
+          });
+        });
+
+        const categoryList = Array.from(categorySet);
+        categoryList.forEach(category => {
+          createPage({
+            path: `/category/${_.kebabCase(category)}/`,
+            component: categoryPage,
+            context: {
+              category
             }
           });
         });

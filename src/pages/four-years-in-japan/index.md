@@ -2,7 +2,7 @@
 title: 4 Years in Japan
 date: 2017-12-30 09:43:08
 path: "/four-years-in-japan/"
-categories: Life
+category: Life
 tags:
 - Japan
 lang: en
