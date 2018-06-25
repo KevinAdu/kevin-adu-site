@@ -1,20 +1,24 @@
 {
   "assetsByChunkName": {
     "path---how-im-studying-japanese": [
-      "path---how-im-studying-japanese-c14ecc22456917260df0.js",
-      "path---how-im-studying-japanese-c14ecc22456917260df0.js.map"
+      "path---how-im-studying-japanese-e0e7923343ca05947551.js",
+      "path---how-im-studying-japanese-e0e7923343ca05947551.js.map"
+    ],
+    "path---category-japanese": [
+      "path---category-japanese-4e97006167548bfcc3ed.js",
+      "path---category-japanese-4e97006167548bfcc3ed.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-ffb737b0f075a51cd69e.js",
-      "component---src-pages-index-js-ffb737b0f075a51cd69e.js.map"
+      "component---src-pages-index-js-bec87cb9c9e0318bbcb1.js",
+      "component---src-pages-index-js-bec87cb9c9e0318bbcb1.js.map"
     ],
     "path---spring-time-and-capsules": [
-      "path---spring-time-and-capsules-b116f46a3654a4fb296c.js",
-      "path---spring-time-and-capsules-b116f46a3654a4fb296c.js.map"
+      "path---spring-time-and-capsules-048c63f53caa5736a121.js",
+      "path---spring-time-and-capsules-048c63f53caa5736a121.js.map"
     ],
     "path---": [
-      "path----557518bd178906f8d58a.js",
-      "path----557518bd178906f8d58a.js.map"
+      "path----942cc6834d83915c4d61.js",
+      "path----942cc6834d83915c4d61.js.map"
     ],
     "path---tags-inspiration": [
       "path---tags-inspiration-dc76dd58ab9ebaf1ce01.js",
@@ -25,8 +29,8 @@
       "path---tags-spring-827faff905b0fd48c71e.js.map"
     ],
     "component---src-templates-tag-page-js": [
-      "component---src-templates-tag-page-js-d4bbc8dfabe4ea47f9b3.js",
-      "component---src-templates-tag-page-js-d4bbc8dfabe4ea47f9b3.js.map"
+      "component---src-templates-tag-page-js-c9ee52a91b623e8607a0.js",
+      "component---src-templates-tag-page-js-c9ee52a91b623e8607a0.js.map"
     ],
     "path---tags-uk": [
       "path---tags-uk-8504f3ddace101f0a75c.js",
@@ -37,32 +41,36 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-63a8c444fb6ecdeb1c00.js",
-      "component---src-templates-blog-post-js-63a8c444fb6ecdeb1c00.js.map"
+      "component---src-templates-blog-post-js-4ecacf4d2d7ad0cb1d76.js",
+      "component---src-templates-blog-post-js-4ecacf4d2d7ad0cb1d76.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-b551c14e4995a497ac1f.js",
-      "component---src-layouts-index-js-b551c14e4995a497ac1f.js.map"
+      "component---src-layouts-index-js-3b5cdcd1e068e347c19c.js",
+      "component---src-layouts-index-js-3b5cdcd1e068e347c19c.js.map"
     ],
     "path---four-years-in-japan": [
-      "path---four-years-in-japan-49571f2741e907ac1127.js",
-      "path---four-years-in-japan-49571f2741e907ac1127.js.map"
+      "path---four-years-in-japan-060ec342ef2c6ba92124.js",
+      "path---four-years-in-japan-060ec342ef2c6ba92124.js.map"
+    ],
+    "component---src-templates-category-page-js": [
+      "component---src-templates-category-page-js-cc61e98f8a93159e6012.js",
+      "component---src-templates-category-page-js-cc61e98f8a93159e6012.js.map"
     ],
     "path---tags-language": [
       "path---tags-language-6c6181206770371978ed.js",
       "path---tags-language-6c6181206770371978ed.js.map"
     ],
     "path---index": [
-      "path---index-86d28e231c34ef1c00b4.js",
-      "path---index-86d28e231c34ef1c00b4.js.map"
+      "path---index-495d5bf9cc6047d227d2.js",
+      "path---index-495d5bf9cc6047d227d2.js.map"
     ],
     "path---tags-japanese": [
-      "path---tags-japanese-7b605997ab9b143f5b17.js",
-      "path---tags-japanese-7b605997ab9b143f5b17.js.map"
+      "path---tags-japanese-d80760a041ff4f3ec324.js",
+      "path---tags-japanese-d80760a041ff4f3ec324.js.map"
     ],
     "path---since-the-last-blog": [
-      "path---since-the-last-blog-30bc8186f285c92a132a.js",
-      "path---since-the-last-blog-30bc8186f285c92a132a.js.map"
+      "path---since-the-last-blog-5b87b5f1a13ecfbda1a1.js",
+      "path---since-the-last-blog-5b87b5f1a13ecfbda1a1.js.map"
     ],
     "path---tags-travel": [
       "path---tags-travel-112aac1f4eec4fa9b9c6.js",
@@ -73,24 +81,28 @@
       "path---tags-goals-9325b38a312cdc3e9f2d.js.map"
     ],
     "commons": [
-      "commons-74cb342e173ff76b3c39.js",
-      "commons-74cb342e173ff76b3c39.js.map"
+      "commons-23029ed275aad2e815c3.js",
+      "commons-23029ed275aad2e815c3.js.map"
     ],
     "path---short-film-tokyo": [
-      "path---short-film-tokyo-629eb9bdcf7323280dea.js",
-      "path---short-film-tokyo-629eb9bdcf7323280dea.js.map"
+      "path---short-film-tokyo-ca0a7f6901315af387bb.js",
+      "path---short-film-tokyo-ca0a7f6901315af387bb.js.map"
     ],
     "path---tags-japan": [
       "path---tags-japan-aaf2fd927eb22150c7f6.js",
       "path---tags-japan-aaf2fd927eb22150c7f6.js.map"
+    ],
+    "path---tags-study": [
+      "path---tags-study-62243a957b9b408d7c96.js",
+      "path---tags-study-62243a957b9b408d7c96.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-97d2ab9c90be1c020dae.js",
-      "app-97d2ab9c90be1c020dae.js.map"
+      "app-1567357042e2c3d4eaf2.js",
+      "app-1567357042e2c3d4eaf2.js.map"
     ],
     "path---tags-translation": [
       "path---tags-translation-e85a1b0a7b02b02501bf.js",
@@ -104,13 +116,17 @@
       "component---src-pages-about-js-e17c60720d916485e5ae.js",
       "component---src-pages-about-js-e17c60720d916485e5ae.js.map"
     ],
+    "path---category-life": [
+      "path---category-life-4d18b9ed722f2f3a1a5a.js",
+      "path---category-life-4d18b9ed722f2f3a1a5a.js.map"
+    ],
     "path---about": [
       "path---about-0f740df56f7af7307b07.js",
       "path---about-0f740df56f7af7307b07.js.map"
     ],
     "path---reverse-culture-shock": [
-      "path---reverse-culture-shock-422463310974dca174c7.js",
-      "path---reverse-culture-shock-422463310974dca174c7.js.map"
+      "path---reverse-culture-shock-fbc832d87723abe9dde6.js",
+      "path---reverse-culture-shock-fbc832d87723abe9dde6.js.map"
     ]
   }
 }
