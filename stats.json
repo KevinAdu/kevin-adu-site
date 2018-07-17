@@ -17,12 +17,16 @@
       "path---spring-time-and-capsules-048c63f53caa5736a121.js.map"
     ],
     "path---": [
-      "path----942cc6834d83915c4d61.js",
-      "path----942cc6834d83915c4d61.js.map"
+      "path----1fedf24385365b24a654.js",
+      "path----1fedf24385365b24a654.js.map"
     ],
     "path---tags-inspiration": [
       "path---tags-inspiration-dc76dd58ab9ebaf1ce01.js",
       "path---tags-inspiration-dc76dd58ab9ebaf1ce01.js.map"
+    ],
+    "path---suffering-and-happiness": [
+      "path---suffering-and-happiness-3e1924fd9214c1719212.js",
+      "path---suffering-and-happiness-3e1924fd9214c1719212.js.map"
     ],
     "path---tags-spring": [
       "path---tags-spring-827faff905b0fd48c71e.js",
@@ -45,12 +49,20 @@
       "component---src-templates-blog-post-js-4ecacf4d2d7ad0cb1d76.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-3b5cdcd1e068e347c19c.js",
-      "component---src-layouts-index-js-3b5cdcd1e068e347c19c.js.map"
+      "component---src-layouts-index-js-0885d421796ce64eb78e.js",
+      "component---src-layouts-index-js-0885d421796ce64eb78e.js.map"
+    ],
+    "path---tags-happines": [
+      "path---tags-happines-a3cb1b1e4c6e0d5a2949.js",
+      "path---tags-happines-a3cb1b1e4c6e0d5a2949.js.map"
     ],
     "path---four-years-in-japan": [
       "path---four-years-in-japan-060ec342ef2c6ba92124.js",
       "path---four-years-in-japan-060ec342ef2c6ba92124.js.map"
+    ],
+    "path---tags-quotes": [
+      "path---tags-quotes-ec4b6d9cde0e3b5fbca8.js",
+      "path---tags-quotes-ec4b6d9cde0e3b5fbca8.js.map"
     ],
     "component---src-templates-category-page-js": [
       "component---src-templates-category-page-js-cc61e98f8a93159e6012.js",
@@ -61,8 +73,8 @@
       "path---tags-language-6c6181206770371978ed.js.map"
     ],
     "path---index": [
-      "path---index-495d5bf9cc6047d227d2.js",
-      "path---index-495d5bf9cc6047d227d2.js.map"
+      "path---index-866234577bde408f506c.js",
+      "path---index-866234577bde408f506c.js.map"
     ],
     "path---tags-japanese": [
       "path---tags-japanese-d80760a041ff4f3ec324.js",
@@ -101,8 +113,8 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-1567357042e2c3d4eaf2.js",
-      "app-1567357042e2c3d4eaf2.js.map"
+      "app-bb0d5809986c0d7c15c9.js",
+      "app-bb0d5809986c0d7c15c9.js.map"
     ],
     "path---tags-translation": [
       "path---tags-translation-e85a1b0a7b02b02501bf.js",
@@ -117,8 +129,8 @@
       "component---src-pages-about-js-e17c60720d916485e5ae.js.map"
     ],
     "path---category-life": [
-      "path---category-life-4d18b9ed722f2f3a1a5a.js",
-      "path---category-life-4d18b9ed722f2f3a1a5a.js.map"
+      "path---category-life-253b18340ddbde6ae9e1.js",
+      "path---category-life-253b18340ddbde6ae9e1.js.map"
     ],
     "path---about": [
       "path---about-0f740df56f7af7307b07.js",

@@ -1,0 +1,2 @@
+webpackJsonp([0x718c25addee8],{394:function(e,a){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{excerpt:"All psychological suffering (or happiness, taken in its usual sense) is a matter of comparison. Recently I finished reading  He…",timeToRead:1,frontmatter:{title:"Suffering and Happiness",date:"June 18, 2018",path:"/suffering-and-happiness/"}}}]}},pathContext:{tag:"Quotes"}}}});
+//# sourceMappingURL=path---tags-quotes-ec4b6d9cde0e3b5fbca8.js.map
