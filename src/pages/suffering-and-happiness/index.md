@@ -6,10 +6,10 @@ path: "/suffering-and-happiness/"
 category: Life
 tags:
 - Quotes
-- Happines
+- Happiness
 ---
 
-All psychological suffering (or happiness, taken in its usual sense) is a matter of comparison.
+> All psychological suffering (or happiness, taken in its usual sense) is a matter of comparison.
 
 Recently I finished reading [He: Understanding Masculine Psychology by Robert A. Johnson](https://www.goodreads.com/book/show/589278.He) and I came across a very powerful quote. This quote really resonated with me as I have felt somewhat lost for the past few months. I have definitely achieved a lot this year already but I felt that I have also made mistakes which have led me to not feel confident nor happy with myself. This is in turn has also caused a feeling of regret.
 
