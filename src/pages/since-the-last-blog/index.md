@@ -1,5 +1,5 @@
 ---
-title: What have I been up to since the last blog?
+title: Since the last blog
 date: 2016-01-24 23:06:08
 path: "/since-the-last-blog/"
 category: Life
