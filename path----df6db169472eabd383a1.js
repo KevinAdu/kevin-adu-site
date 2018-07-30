@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{112:function(e,t){e.exports={data:{allMarkdownRemark:{edges:[{node:{frontmatter:{category:"Life"}}},{node:{frontmatter:{category:"Life"}}},{node:{frontmatter:{category:"Life"}}},{node:{frontmatter:{category:"Life"}}},{node:{frontmatter:{category:"Life"}}},{node:{frontmatter:{category:"Life"}}},{node:{frontmatter:{category:"Life"}}},{node:{frontmatter:{category:"Life"}}},{node:{frontmatter:{category:"Japanese"}}}]}},layoutContext:{}}}});
+//# sourceMappingURL=path----df6db169472eabd383a1.js.map
