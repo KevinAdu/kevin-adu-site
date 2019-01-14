@@ -54,13 +54,13 @@ blockquote {
   margin-left: 1.5em;
   padding: 1.5em 0;
 
-  &> p:before {
+  &> p:first-child:before {
     content:"“";
     display: inline;
     font-style: normal;
   }
 
-  &> p::after {
+  &> p:first-child:after {
     content:"”";
     font-style: normal;
   }
