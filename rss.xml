@@ -1,8 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kevin Adu's Blog]]></title><description><![CDATA[A blog by Kevin Adu mainly writing about Japan and Web Development]]></description><link>http://blog.kevinadu.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 14 Jan 2019 08:19:08 GMT</lastBuildDate><item><title><![CDATA[Living in the Moment]]></title><description><![CDATA[Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment. —  Buddha Happy new year everyone! I think…]]></description><link>http://blog.kevinadu.com/living-in-the-moment/</link><guid isPermaLink="false">http://blog.kevinadu.com/living-in-the-moment/</guid><pubDate>Mon, 14 Jan 2019 17:30:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kevin Adu's Blog]]></title><description><![CDATA[A blog by Kevin Adu mainly writing about Japan and Web Development]]></description><link>http://blog.kevinadu.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 04 Feb 2019 14:28:59 GMT</lastBuildDate><item><title><![CDATA[Living in the Moment]]></title><description><![CDATA[Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment. —  Buddha Happy new year everyone! I think…]]></description><link>http://blog.kevinadu.com/living-in-the-moment/</link><guid isPermaLink="false">http://blog.kevinadu.com/living-in-the-moment/</guid><pubDate>Mon, 14 Jan 2019 17:30:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.&lt;/p&gt;
 &lt;p&gt;— &lt;cite&gt;Buddha&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Happy new year everyone! I think it’s that time of the year where we’re all looking back at the goals we set at the start of 2018 and wondering did I achieve them? Many people, like me, may have not or have just forgotten them all together. Then when January 1st hits again we once again form New Year’s resolutions and begin the chase again. This common cycle tends to not think about the progress that it is needed now in the present and what makes that slowly inch towards what we want to achieve.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/jan-first-2afe0f053ee91545320fb775cdcb30c5-dc890.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.77998017839445%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgADBf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAegkRdnJ/8QAFxAAAwEAAAAAAAAAAAAAAAAAABEgIf/aAAgBAQABBQLRz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABkQAAMAAwAAAAAAAAAAAAAAAAABECExcf/aAAgBAQABPyFBZHZqf//aAAwDAQACAAMAAAAQ2N//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREx/9oACAEDAQE/EFFpT//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EEf/xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMWFBwf/aAAgBAQABPxBJ18mIFXwiF5F9l4TEos+ze2f/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;We have custom of always making new years&quot;
+        title=&quot;&quot;
+        src=&quot;/static/jan-first-2afe0f053ee91545320fb775cdcb30c5-f8fb9.jpg&quot;
+        srcset=&quot;/static/jan-first-2afe0f053ee91545320fb775cdcb30c5-e8976.jpg 148w,
+/static/jan-first-2afe0f053ee91545320fb775cdcb30c5-63df2.jpg 295w,
+/static/jan-first-2afe0f053ee91545320fb775cdcb30c5-f8fb9.jpg 590w,
+/static/jan-first-2afe0f053ee91545320fb775cdcb30c5-85e3d.jpg 885w,
+/static/jan-first-2afe0f053ee91545320fb775cdcb30c5-dc890.jpg 1009w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Happy new year everyone! I think it’s that time of the year where we’re all looking back at the goals we’ve set at the start of 2018 and wondering were they achieved? Many people, like me, may have not or have just forgotten them all together. Then when January 1st hits again we once again form New Year’s resolutions and begin the chase again. This common cycle tends to not think about the progress that it is needed now in the present and what makes that slowly inch towards what we want to achieve.&lt;/p&gt;
 &lt;p&gt;Always concentrating on the process and challenges that arise day by day is what drives constant growth. Thinking of regrets in the past or thinking of what may become in the future may not do anything for us if we do not address what is in front of us now.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Ups and Downs]]></title><description><![CDATA[The natural ups and downs of life can either generate personal growth or create personal fears. Which of these dominate is completely…]]></description><link>http://blog.kevinadu.com/ups-and-downs/</link><guid isPermaLink="false">http://blog.kevinadu.com/ups-and-downs/</guid><pubDate>Wed, 25 Jul 2018 20:06:49 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;The natural ups and downs of life can either generate personal growth or create personal fears. Which of these dominate is completely dependent on how we view change.&lt;/p&gt;
 &lt;/blockquote&gt;
