@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---ups-and-downs": [
-      "path---ups-and-downs-58f3658d96a8f22f4479.js",
-      "path---ups-and-downs-58f3658d96a8f22f4479.js.map"
+      "path---ups-and-downs-801909132af18680423e.js",
+      "path---ups-and-downs-801909132af18680423e.js.map"
     ],
     "path---how-im-studying-japanese": [
       "path---how-im-studying-japanese-e0e7923343ca05947551.js",
@@ -21,16 +21,16 @@
       "path---spring-time-and-capsules-048c63f53caa5736a121.js.map"
     ],
     "path---": [
-      "path----2e722a23698c67247ea9.js",
-      "path----2e722a23698c67247ea9.js.map"
+      "path----e83aef1dd5ccd986a950.js",
+      "path----e83aef1dd5ccd986a950.js.map"
     ],
     "path---tags-inspiration": [
       "path---tags-inspiration-dc76dd58ab9ebaf1ce01.js",
       "path---tags-inspiration-dc76dd58ab9ebaf1ce01.js.map"
     ],
     "path---suffering-and-happiness": [
-      "path---suffering-and-happiness-8207d4fc5b3c95fbbff8.js",
-      "path---suffering-and-happiness-8207d4fc5b3c95fbbff8.js.map"
+      "path---suffering-and-happiness-35c1541b26e55fd0a334.js",
+      "path---suffering-and-happiness-35c1541b26e55fd0a334.js.map"
     ],
     "path---tags-spring": [
       "path---tags-spring-827faff905b0fd48c71e.js",
@@ -53,12 +53,12 @@
       "component---src-templates-blog-post-js-4ecacf4d2d7ad0cb1d76.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-aa595a06b05da64d83f8.js",
-      "component---src-layouts-index-js-aa595a06b05da64d83f8.js.map"
+      "component---src-layouts-index-js-b72a84c41354fd02d2a5.js",
+      "component---src-layouts-index-js-b72a84c41354fd02d2a5.js.map"
     ],
     "path---four-years-in-japan": [
-      "path---four-years-in-japan-060ec342ef2c6ba92124.js",
-      "path---four-years-in-japan-060ec342ef2c6ba92124.js.map"
+      "path---four-years-in-japan-d4b335ce11194b633873.js",
+      "path---four-years-in-japan-d4b335ce11194b633873.js.map"
     ],
     "path---tags-quotes": [
       "path---tags-quotes-3919bcea07f23ce6f2ea.js",
@@ -73,8 +73,8 @@
       "path---tags-language-6c6181206770371978ed.js.map"
     ],
     "path---index": [
-      "path---index-02732680d15f93ecb04d.js",
-      "path---index-02732680d15f93ecb04d.js.map"
+      "path---index-40bc7faf29665ad52e39.js",
+      "path---index-40bc7faf29665ad52e39.js.map"
     ],
     "path---tags-japanese": [
       "path---tags-japanese-d80760a041ff4f3ec324.js",
@@ -101,8 +101,8 @@
       "path---short-film-tokyo-ca0a7f6901315af387bb.js.map"
     ],
     "path---tags-japan": [
-      "path---tags-japan-763c4a10eefa79cb9ee3.js",
-      "path---tags-japan-763c4a10eefa79cb9ee3.js.map"
+      "path---tags-japan-c575a24c69568a463419.js",
+      "path---tags-japan-c575a24c69568a463419.js.map"
     ],
     "path---tags-study": [
       "path---tags-study-62243a957b9b408d7c96.js",
@@ -121,8 +121,8 @@
       "path---living-in-the-moment-d0b9812b61bc4416e101.js.map"
     ],
     "app": [
-      "app-c44281a655ca24f5f7f9.js",
-      "app-c44281a655ca24f5f7f9.js.map"
+      "app-67ebc20102004ad3a74a.js",
+      "app-67ebc20102004ad3a74a.js.map"
     ],
     "path---tags-translation": [
       "path---tags-translation-e85a1b0a7b02b02501bf.js",
@@ -137,16 +137,16 @@
       "component---src-pages-about-js-e17c60720d916485e5ae.js.map"
     ],
     "path---category-life": [
-      "path---category-life-811d60bc2ae6208a5423.js",
-      "path---category-life-811d60bc2ae6208a5423.js.map"
+      "path---category-life-6ef847f68502a2cfe4f3.js",
+      "path---category-life-6ef847f68502a2cfe4f3.js.map"
     ],
     "path---about": [
       "path---about-0f740df56f7af7307b07.js",
       "path---about-0f740df56f7af7307b07.js.map"
     ],
     "path---reverse-culture-shock": [
-      "path---reverse-culture-shock-fbc832d87723abe9dde6.js",
-      "path---reverse-culture-shock-fbc832d87723abe9dde6.js.map"
+      "path---reverse-culture-shock-76c379b7ccf75725346b.js",
+      "path---reverse-culture-shock-76c379b7ccf75725346b.js.map"
     ]
   }
 }
