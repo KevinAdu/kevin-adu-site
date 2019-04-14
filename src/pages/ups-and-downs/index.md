@@ -11,7 +11,7 @@ tags:
 
 > The natural ups and downs of life can either generate personal growth or create personal fears. Which of these dominate is completely dependent on how we view change.
 
-![Life can have many ups and downs](./comparison.jpg)
+![Life can have many ups and downs](./rollercoaster.jpg)
 
 So today marks the day where I’m one year from 30 years old… fuck. I’m getting old but with aging comes the accumulation of experiences and with that can become wisdom depending on how you reflect on your past.
 
