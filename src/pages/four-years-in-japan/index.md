@@ -8,8 +8,7 @@ tags:
 lang: en
 ---
 
-Today marks my 4 year anniversary of moving to Japan. It has definitely been an interesting 4 years filled with joy, sadness, surprises
- and whole bunch of other indescribable feelings. I still believe to this day it was one of the best decisions I have made in my life.
+Today marks my 4 year anniversary of moving to Japan. It has definitely been an interesting 4 years filled with joy, sadness, surprises and whole bunch of other indescribable feelings. I still believe to this day it was one of the best decisions I have made in my life.
 
  ![Me 4 years ago arriving in Japan](./me-4-years-ago.jpg)
 
