@@ -19,25 +19,17 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const tagsList = post.frontmatter.tags
 
-    return (
-      <main>
+    return <main>
         <article className="article">
           <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
           <h2>{post.frontmatter.title}</h2>
-          <PostMetadata
-            date={post.frontmatter.date}
-            tags={tagsList}
-            url={post.frontmatter.path}
-          />
+          <PostMetadata date={post.frontmatter.date} tags={tagsList} url={post.frontmatter.path} />
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr />
         </article>
-        <ReactDisqusThread
-          shortname="kevinadu"
-          title={post.frontmatter.title}
-          onNewComment={this.handleNewComment}/>
-      </main>
-    )
+        <GoogleAd client="ca-pub-3645221790882323"/>
+        <ReactDisqusThread shortname="kevinadu" title={post.frontmatter.title} onNewComment={this.handleNewComment} />
+      </main>;
   }
 }
 
