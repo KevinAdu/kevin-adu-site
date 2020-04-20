@@ -1,7 +1,8 @@
 import React from 'react';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import Link from 'gatsby-link';
 import get from 'lodash/get';
+import Layout from '../components/layout';
 
 class CategoryPageTemplate extends React.Component {
   render() {
@@ -10,21 +11,23 @@ class CategoryPageTemplate extends React.Component {
     const posts = this.props.data.allMarkdownRemark.edges;
 
     return (
-      <main>
-        <Helmet title={`Category - "${category}" | ${siteTitle}`} />
-        <h2>{category}</h2>
-        {posts.map(post => {
-          return (
-            <div className="post-tag-listing">
-              <Link to={post.node.frontmatter.path}>
-                <h3>{post.node.frontmatter.title}</h3>
-              </Link>
-              <time>{post.node.frontmatter.date}</time>
-            </div>
-          )
-        })}
-      </main>
-    )
+      <Layout>
+        <main>
+          <Helmet title={`Category - "${category}" | ${siteTitle}`} />
+          <h2>{category}</h2>
+          {posts.map(post => {
+            return (
+              <div className="post-tag-listing">
+                <Link to={post.node.frontmatter.path}>
+                  <h3>{post.node.frontmatter.title}</h3>
+                </Link>
+                <time>{post.node.frontmatter.date}</time>
+              </div>
+            );
+          })}
+        </main>
+      </Layout>
+    );
   }
 }
 

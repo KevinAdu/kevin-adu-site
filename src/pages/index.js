@@ -1,21 +1,23 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import get from 'lodash/get'
-import Helmet from 'react-helmet'
-import PostMetadata from '../components/PostMetadata'
+import React from 'react';
+import { Link } from 'gatsby';
+import get from 'lodash/get';
+import { Helmet } from 'react-helmet';
+import PostMetadata from '../components/PostMetadata';
+import Layout from '../components/layout';
 
 class BlogIndex extends React.Component {
   render() {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-    const siteUrl = get(this, 'props.data.site.siteMetadata.siteUrl')
-    const posts = get(this, 'props.data.allMarkdownRemark.edges')
+    const siteTitle = get(this, 'props.data.site.siteMetadata.title');
+    const siteUrl = get(this, 'props.data.site.siteMetadata.siteUrl');
+    const posts = get(this, 'props.data.allMarkdownRemark.edges');
 
     return (
-      <main>
-        <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
+      <Layout>
+        <main>
+          <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
           {posts.map(post => {
             if (post.node.path !== '/404/') {
-              const tags = post.node.frontmatter.tags
+              const tags = post.node.frontmatter.tags;
 
               return (
                 <article className="post" key={post.node.frontmatter.path}>
@@ -30,19 +32,16 @@ class BlogIndex extends React.Component {
                   <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
                   <Link to={post.node.frontmatter.path}>Read More</Link>
                 </article>
-              )
+              );
             }
           })}
-      </main>
-    )
+        </main>
+      </Layout>
+    );
   }
 }
 
-BlogIndex.propTypes = {
-  route: React.PropTypes.object,
-}
-
-export default BlogIndex
+export default BlogIndex;
 
 export const pageQuery = graphql`
   query IndexQuery {
@@ -63,9 +62,9 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
-            }
           }
         }
       }
     }
-`
+  }
+`;

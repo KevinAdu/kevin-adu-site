@@ -1,20 +1,19 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import _ from "lodash";
-import ReactDisqusCounter from 'react-disqus-counter'
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import faComment from '@fortawesome/fontawesome-free-solid/faComment'
-import faClock from '@fortawesome/fontawesome-free-regular/faClock'
-import faTags from '@fortawesome/fontawesome-free-solid/faTags'
+import React from 'react';
+import { Link } from 'gatsby';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faComment } from '@fortawesome/fontawesome-free-solid/faComment';
+import { faClock } from '@fortawesome/fontawesome-free-regular/faClock';
+import { faTags } from '@fortawesome/fontawesome-free-solid/faTags';
+const kebabCase = require('lodash.kebabcase');
 
 class PostMetadata extends React.Component {
   render() {
     const disqusUrl = `${this.props.url}#disqus_thread`;
     const tagsList = this.props.tags.map(tag => (
-      <Link key={tag} to={`/tags/${_.kebabCase(tag)}`}>
+      <Link key={tag} to={`/tags/${kebabCase(tag)}`}>
         <li>{tag}</li>
-      </Link>)
-    );
+      </Link>
+    ));
 
     return (
       <div className="post-metadata">
@@ -26,18 +25,9 @@ class PostMetadata extends React.Component {
           <FontAwesomeIcon icon={faTags} />
           <ul>{tagsList}</ul>
         </div>
-        <div className="post-comments">
-          <FontAwesomeIcon icon={faComment} />
-          <Link to={disqusUrl}>
-            <ReactDisqusCounter
-              url={this.props.url}
-              shortname='kevinadu'
-            />
-          </Link>
-        </div>
       </div>
-    )
+    );
   }
 }
 
-export default PostMetadata
+export default PostMetadata;

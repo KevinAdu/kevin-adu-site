@@ -1,22 +1,15 @@
-const _ = require("lodash")
-const Promise = require("bluebird")
-const path = require("path")
-const select = require(`unist-util-select`)
-const fs = require(`fs-extra`)
+const path = require(`path`);
+const kebabCase = require('lodash.kebabcase');
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage } = boundActionCreators
-
-  return new Promise((resolve, reject) => {
-    const pages = []
-    const blogPost = path.resolve("./src/templates/blog-post.js")
-    const tagPage = path.resolve("./src/templates/tag-page.js")
-    const categoryPage = path.resolve("./src/templates/category-page.js")
-    const tagSet = new Set();
-    const categorySet = new Set();
-    resolve(
-      graphql(
-        `
+exports.createPages = async ({ graphql, actions }) => {
+  const { createPage } = actions;
+  const blogPost = path.resolve('./src/templates/blog-post.js');
+  const tagPage = path.resolve('./src/templates/tag-page.js');
+  const categoryPage = path.resolve('./src/templates/category-page.js');
+  const tagSet = new Set();
+  const categorySet = new Set();
+  const result = await graphql(
+    `
       {
         allMarkdownRemark(limit: 1000) {
           edges {
@@ -31,54 +24,53 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         }
       }
     `
-      ).then(result => {
-        if (result.errors) {
-          console.log(result.errors)
-          reject(result.errors)
+  );
+
+  if (result.errors) {
+    throw result.errors;
+  }
+
+  const posts = result.data.allMarkdownRemark.edges;
+
+  posts.forEach(post => {
+    if (post.node.frontmatter.tags) {
+      post.node.frontmatter.tags.forEach(tag => {
+        tagSet.add(tag);
+      });
+    }
+
+    if (post.node.frontmatter.category) {
+      categorySet.add(post.node.frontmatter.category);
+    }
+
+    createPage({
+      path: post.node.frontmatter.path,
+      component: blogPost,
+      context: {
+        path: post.node.frontmatter.path
+      }
+    });
+
+    const tagList = Array.from(tagSet);
+    tagList.forEach(tag => {
+      createPage({
+        path: `/tags/${kebabCase(tag)}/`,
+        component: tagPage,
+        context: {
+          tag
         }
+      });
+    });
 
-        _.each(result.data.allMarkdownRemark.edges, edge => {
-          if (edge.node.frontmatter.tags) {
-            edge.node.frontmatter.tags.forEach(tag => {
-              tagSet.add(tag);
-            });
-          }
-
-          if (edge.node.frontmatter.category) {
-            categorySet.add(edge.node.frontmatter.category);
-          }
-
-          createPage({
-            path: edge.node.frontmatter.path,
-            component: blogPost,
-            context: {
-              path: edge.node.frontmatter.path,
-            },
-          });
-        });
-
-        const tagList = Array.from(tagSet);
-        tagList.forEach(tag => {
-          createPage({
-            path: `/tags/${_.kebabCase(tag)}/`,
-            component: tagPage,
-            context: {
-              tag
-            }
-          });
-        });
-
-        const categoryList = Array.from(categorySet);
-        categoryList.forEach(category => {
-          createPage({
-            path: `/category/${_.kebabCase(category)}/`,
-            component: categoryPage,
-            context: {
-              category
-            }
-          });
-        });
-      })
-    )
-  })
-}
+    const categoryList = Array.from(categorySet);
+    categoryList.forEach(category => {
+      createPage({
+        path: `/category/${kebabCase(category)}/`,
+        component: categoryPage,
+        context: {
+          category
+        }
+      });
+    });
+  });
+};
