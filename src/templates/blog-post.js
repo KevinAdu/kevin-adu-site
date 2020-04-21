@@ -1,38 +1,45 @@
 import React from 'react';
-import Helmet from 'react-helmet';
-import Link from 'gatsby-link';
+import { Helmet } from 'react-helmet';
 import get from 'lodash/get';
-import ReactDisqusThread from 'react-disqus-thread';
 import PostMetadata from '../components/PostMetadata';
+import Layout from '../components/layout';
 
 class BlogPostTemplate extends React.Component {
   componentDidMount() {
-    const images = document.querySelectorAll('.article img')
+    const images = document.querySelectorAll('.article img');
     images.forEach(image => {
-      const imgCaption = `<figcaption class="post-image-caption">${image.alt}</figcaption>`
+      const imgCaption = `<figcaption class="post-image-caption">${image.alt}</figcaption>`;
       image.insertAdjacentHTML('afterend', imgCaption);
-    })
+    });
   }
 
   render() {
-    const post = this.props.data.markdownRemark
-    const siteTitle = get(this.props, 'data.site.siteMetadata.title')
-    const tagsList = post.frontmatter.tags
+    const { data } = this.props;
+    const post = data.markdownRemark;
+    const siteTitle = get(this.props, 'data.site.siteMetadata.title');
+    const tagsList = post.frontmatter.tags;
 
-    return <main>
-        <article className="article">
-          <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-          <h2>{post.frontmatter.title}</h2>
-          <PostMetadata date={post.frontmatter.date} tags={tagsList} url={post.frontmatter.path} />
-          <div dangerouslySetInnerHTML={{ __html: post.html }} />
-          <hr />
-        </article>
-        <ReactDisqusThread shortname="kevinadu" title={post.frontmatter.title} onNewComment={this.handleNewComment} />
-      </main>;
+    return (
+      <Layout>
+        <main>
+          <article className="article">
+            <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+            <h2>{post.frontmatter.title}</h2>
+            <PostMetadata
+              date={post.frontmatter.date}
+              tags={tagsList}
+              url={post.frontmatter.path}
+            />
+            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            <hr />
+          </article>
+        </main>
+      </Layout>
+    );
   }
 }
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
@@ -53,4 +60,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
