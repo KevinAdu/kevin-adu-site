@@ -29,7 +29,7 @@ class Template extends React.Component {
           </p>
           <ul className="social-links">
             <li>
-              <a href="https://twitter.com/KmanAdu">
+              <a href="https://twitter.com/Kevin__Adu">
                 <FontAwesomeIcon icon={faTwitter} />
                 <small>Twitter</small>
               </a>
