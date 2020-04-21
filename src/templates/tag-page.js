@@ -7,9 +7,10 @@ import { faTags } from '@fortawesome/fontawesome-free-solid/faTags';
 
 class TagPageTemplate extends React.Component {
   render() {
-    const tag = this.props.pathContext.tag;
+    const { pathContext, data } = this.props;
+    const tag = pathContext.tag;
     const siteTitle = get(this.props, 'data.site.siteMetadata.title');
-    const posts = this.props.data.allMarkdownRemark.edges;
+    const posts = data.allMarkdownRemark.edges;
 
     return (
       <Layout>

@@ -8,8 +8,10 @@ const kebabCase = require('lodash.kebabcase');
 
 class PostMetadata extends React.Component {
   render() {
-    const disqusUrl = `${this.props.url}#disqus_thread`;
-    const tagsList = this.props.tags.map(tag => (
+    const { url, tags, date } = this.props;
+
+    const disqusUrl = `${url}#disqus_thread`;
+    const tagsList = tags.map(tag => (
       <Link key={tag} to={`/tags/${kebabCase(tag)}`}>
         <li>{tag}</li>
       </Link>
@@ -19,7 +21,7 @@ class PostMetadata extends React.Component {
       <div className="post-metadata">
         <div className="post-date">
           <FontAwesomeIcon icon={faClock} />
-          <time>{this.props.date}</time>
+          <time>{date}</time>
         </div>
         <div className="post-tags">
           <FontAwesomeIcon icon={faTags} />

@@ -6,9 +6,10 @@ import Layout from '../components/layout';
 
 class CategoryPageTemplate extends React.Component {
   render() {
-    const category = this.props.pathContext.category;
-    const siteTitle = get(this.props, 'data.site.siteMetadata.title')
-    const posts = this.props.data.allMarkdownRemark.edges;
+    const { pathContext, data } = this.props;
+    const category = pathContext.category;
+    const siteTitle = get(this.props, 'data.site.siteMetadata.title');
+    const posts = data.allMarkdownRemark.edges;
 
     return (
       <Layout>
@@ -31,11 +32,11 @@ class CategoryPageTemplate extends React.Component {
   }
 }
 
-export default CategoryPageTemplate
+export default CategoryPageTemplate;
 
 export const pageQuery = graphql`
   query CategoryPage($category: String) {
-    allMarkdownRemark (
+    allMarkdownRemark(
       limit: 1000
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { category: { eq: $category } } }
@@ -55,4 +56,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

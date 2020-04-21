@@ -1,6 +1,6 @@
-import * as React from "react";
+import React from 'react';
 
-export default ({ client, slot, format = "auto" }) => (
+export default ({ client, slot, format = 'auto' }) => (
   <div>
     <ins
       className="adsbygoogle"

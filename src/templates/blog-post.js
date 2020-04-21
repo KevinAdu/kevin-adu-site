@@ -14,7 +14,8 @@ class BlogPostTemplate extends React.Component {
   }
 
   render() {
-    const post = this.props.data.markdownRemark;
+    const { data } = this.props;
+    const post = data.markdownRemark;
     const siteTitle = get(this.props, 'data.site.siteMetadata.title');
     const tagsList = post.frontmatter.tags;
 
