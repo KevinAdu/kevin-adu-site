@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import get from 'lodash/get';
+import Disqus from 'disqus-react';
 import PostMetadata from '../components/PostMetadata';
 import Layout from '../components/layout';
 
@@ -18,6 +19,12 @@ class BlogPostTemplate extends React.Component {
     const post = data.markdownRemark;
     const siteTitle = get(this.props, 'data.site.siteMetadata.title');
     const tagsList = post.frontmatter.tags;
+    const disqusShortname = 'kevinadu';
+    const disqusConfig = {
+      url: data.site.siteMetadata.siteUrl,
+      identifier: post.frontmatter.path, //this.props.uniqueId
+      title: post.frontmatter.title
+    };
 
     return (
       <Layout>
@@ -33,6 +40,7 @@ class BlogPostTemplate extends React.Component {
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
             <hr />
           </article>
+          <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
         </main>
       </Layout>
     );
