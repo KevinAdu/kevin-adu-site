@@ -67,7 +67,6 @@ module.exports = {
       options: {
         fonts: [`merriweather`, `roboto`, `open sans\:300,600`]
       }
-    },
-    `gatsby-plugin-feed`
+    }
   ]
 };
