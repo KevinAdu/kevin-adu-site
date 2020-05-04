@@ -21,8 +21,6 @@ class BlogPostTemplate extends React.Component {
     const tagsList = post.frontmatter.tags;
     const disqusShortname = 'kevinadu';
     const disqusConfig = {
-      url: data.site.siteMetadata.siteUrl,
-      identifier: post.frontmatter.path, //this.props.uniqueId
       title: post.frontmatter.title
     };
 
