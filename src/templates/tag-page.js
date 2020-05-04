@@ -4,6 +4,7 @@ import { Link } from 'gatsby';
 import get from 'lodash/get';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTags } from '@fortawesome/fontawesome-free-solid/faTags';
+import Layout from '../components/layout';
 
 class TagPageTemplate extends React.Component {
   render() {
