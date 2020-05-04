@@ -5,6 +5,7 @@ import { faComment } from '@fortawesome/fontawesome-free-solid/faComment';
 import { faClock } from '@fortawesome/fontawesome-free-regular/faClock';
 import { faTags } from '@fortawesome/fontawesome-free-solid/faTags';
 const kebabCase = require('lodash.kebabcase');
+import { CommentCount } from 'disqus-react';
 
 class PostMetadata extends React.Component {
   render() {
@@ -26,6 +27,17 @@ class PostMetadata extends React.Component {
         <div className="post-tags">
           <FontAwesomeIcon icon={faTags} />
           <ul>{tagsList}</ul>
+        </div>
+        <div className="post-comments">
+          <FontAwesomeIcon icon={faComment} />
+          <Link to={disqusUrl}>
+            <CommentCount
+              shortname="kevinadu"
+              config={{
+                url
+              }}
+            />
+          </Link>
         </div>
       </div>
     );
