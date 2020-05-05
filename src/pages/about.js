@@ -3,10 +3,7 @@ import { graphql } from 'gatsby';
 import get from 'lodash/get';
 import { Helmet } from 'react-helmet';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter } from '@fortawesome/fontawesome-free-brands/faTwitter';
-import { faInstagram } from '@fortawesome/fontawesome-free-brands/faInstagram';
-import { faGithub } from '@fortawesome/fontawesome-free-brands/faGithub';
-import { faCodepen } from '@fortawesome/fontawesome-free-brands/faCodepen';
+import { faTwitter, faInstagram, faGithub, faCodepen } from '@fortawesome/free-brands-svg-icons';
 import Layout from '../components/layout';
 import '../styles/main.scss';
 

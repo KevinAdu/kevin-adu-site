@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faComment } from '@fortawesome/fontawesome-free-solid/faComment';
-import { faClock } from '@fortawesome/fontawesome-free-regular/faClock';
-import { faTags } from '@fortawesome/fontawesome-free-solid/faTags';
+import { faComment, faTags } from '@fortawesome/free-solid-svg-icons';
+import { faClock } from '@fortawesome/free-solid-svg-icons';
 const kebabCase = require('lodash.kebabcase');
 import { CommentCount } from 'disqus-react';
 
